@@ -1,0 +1,267 @@
+
+#topbottom {
+    background-image: url("../jpg/sfondoBottom-Top.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	height:48px;
+}
+		
+#contenitore_preferiti {
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+	
+}
+
+#areaMain_preferiti {
+	height: auto !important;
+    margin: auto;
+    min-height: 300px;
+}
+
+#areaMain_preferiti .myposte-view {
+    min-height: 200px !important;
+    height: auto !important;
+}
+
+#areaMain_preferiti .myposte-prefs {
+    min-height: 200px !important;
+    height: auto !important;
+}
+
+#areaCenter_preferiti {
+    min-height: 150px !important;
+    height: auto !important;
+    height: 150px !important;
+	background-image: url("../jpg/sfondoAreaCenter.jpg");
+    background-repeat: repeat-y;
+}
+
+#myposte {
+	margin-left: auto;
+	margin-right: auto;
+    position: relative;
+    padding: 2px 0 2px 0;
+	width: 824px;
+	height: 180px;
+}
+
+#myposte #centered, .group {
+    width: 706px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+#infopreferiti {
+	background-image: url("../jpg/preferiti.jpg");
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	margin-left:-15px;
+}
+
+.preferitibutton {
+	margin-right:-15px;
+}
+
+/*
+ * rollover button
+ */
+#myposte #dynamic .rolloverbutton {
+    float: left;
+    width: 124px;
+    height: 120px;
+    padding: 0px;
+    margin: 0 5px;
+    display: block;
+    position: relative;
+}
+
+#myposte #dynamic .rolloverbutton P {
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#myposte #dynamic .break {
+    clear: both;
+    float: none;
+}
+
+#myposte .group {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+#myposte #panels {
+}
+
+#myposte .panel {
+    height: 48px;
+    width: 64px;
+    float: left;
+    border: 1px solid yellow;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+/* carousel */
+
+a.prev, a.next {
+    background: url(../png/miscellaneous_sprite.png) no-repeat transparent;
+    width: 45px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 50px;
+}
+
+a.prev {
+    left: 0;
+    background-position: 0 0;
+	margin-left:-20px;
+}
+
+a.prev:hover {
+    background-position: 0 -50px;
+}
+
+a.prev.disabled {
+	cursor: default;
+}
+
+a.next {
+    right: 0;
+    background-position: -50px 0;
+	margin-right:-20px;
+}
+
+a.next:hover {
+    background-position: -50px -50px;
+}
+
+a.next.disabled {
+	/*display: none !important;*/
+	cursor: default;
+}
+
+a#dynamic_prev.disabled:hover {
+    background-position: 0 0;
+	cursor: default;
+}
+
+a#dynamic_next.disabled:hover {
+    background-position: -50px 0;
+	cursor: default;
+}
+a.prev span, a.next span {
+    display: none;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/* IE7 compliant */
+*:first-child + html #dynamic {
+    top: 0;
+    left: 0;
+}
+
+/* carousel */
+.carousel-box {
+}
+
+#carousel {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	left:50px !important;
+}
+
+#carousel li {
+    margin: 10px 2px 0px 0px;
+    padding: 10px;
+    float: left;
+    width: 82px;
+    height: 90px;
+    font-size: 7pt;
+	line-height: 9pt;
+    text-align: center;
+/*  text-transform: uppercase; */
+    background: #ffffff !important;
+	border: none !important;
+	font-weight: normal;
+}
+
+#carousel li :hover{
+	cursor: pointer;
+}
+
+#sortable-visible {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00ff00 !important;
+    border: 1px solid #00cc00;
+}
+
+#sortable-visible li {
+    margin: 2px 2px 2px 0;
+    padding: 1px;
+    float: left;
+    width: 82px;
+    height: 90px;
+    font-size: 7pt;
+	line-height: 10pt;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffffff !important;
+}
+
+.clear-li {
+    clear: left;
+}
+
+#sortable-visible li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+
+#sortable-available {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff00 !important;
+    border: 1px solid #ffcc00;
+}
+
+#sortable-available li {
+    margin: 2px 2px 2px 0;
+    padding: 1px;
+    float: left;
+    width: 82px;
+    height: 90px;
+    font-size: 7pt;
+	line-height: 10pt;
+    text-align: center;
+    text-transform: uppercase;
+    background: #ffffff !important;
+}
+
+#sortable-available li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+*html #pulsantepreferiti .preferitibutton {
+	margin-right:0px;
+}
+*html #infopreferiti {
+	margin-left:0px;
+}

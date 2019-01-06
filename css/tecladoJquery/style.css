@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font: 25px  Verdana, Sans-Serif;
+background:#333;
+}
+#containerInputs {
+margin: 100px auto;
+width: 688px;
+}
+#containerPantalla {
+	margin:auto;
+	margin-top:10px;
+	height:750px;
+	width: 1000px;
+	background:#F5F5F5;
+	border: 3px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#contilloIzquierdo {
+	float:left;
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+	width: 840px;
+	height:70px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#contilloDerecho {
+	float:right;
+	position:relative;
+	margin-top:5px;
+	margin-right:5px;
+	width: 140px;
+	height:70px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#contenidoIzquierdo {
+	float:left;
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+	width: 800px;
+	height:560px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: scroll;
+}
+#contenidoDerecho {
+	float:right;
+	position:relative;
+	margin-top:5px;
+	margin-right:5px;
+	width: 180px;
+	height:560px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#footerIzquierdo {
+	float:left;
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+	width: 640px;
+	height:90px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#footerDerecho {
+	float:left;
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+	width: 335px;
+	height:90px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#mensActual {
+	background:#FFFF80;
+	float:left;
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+	width: 310px;
+	height:80px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#mensCerrado {
+	background:#CE9DFF;
+	float:left;
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+	width: 310px;
+	height:80px;
+	border: 2px solid #00C ;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+#container {
+background:#009;
+margin: auto;
+width: 688px;
+}
+#numberChar {
+	float: left;
+	margin: 0px 5px 5px 5px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #E4E4E4; 
+	background:#333;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#numerTable{
+	width:170px;
+	margin:auto;
+	margin-top:30px;
+}
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 671px;
+height: 200px;
+font: 25px Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+#login {
+	margin: 0 0 5px;
+	padding: 5px;
+	width: 500px;
+	height: 30px;
+	font: 25px Verdana, Sans-Serif;
+	background: #fff;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#pass {
+	margin: 0 0 5px;
+	padding: 5px;
+	width: 500px;
+	height: 30px;
+	font: 25px Verdana, Sans-Serif;
+	background: #fff;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#botonEntrar {
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px;
+	width: 300px;
+	height: 40px;	
+	font: 25px Verdana, Sans-Serif;
+	background:;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+#keyboard {
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+	#keyboard li {
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+		.capslock, .tab, .left-shift {
+		clear: left;
+		}
+			#keyboard .tab, #keyboard .delete {
+			width: 70px;
+			}
+			#keyboard .capslock {
+			width: 80px;
+			}
+			#keyboard .return {
+			width: 77px;
+			}
+			#keyboard .left-shift {
+			width: 95px;
+			}
+			#keyboard .right-shift {
+			width: 109px;
+			}
+		.lastitem {
+		margin-right: 0;
+		}
+		.uppercase {
+		text-transform: uppercase;
+		}
+		#keyboard .space {
+		clear: left;
+		width: 681px;
+		}
+		.on {
+		display: none;
+		}
+		#keyboard li:hover {
+		position: relative;
+		top: 1px;
+		left: 1px;
+		border-color: #e5e5e5;
+		cursor: pointer;
+		
+		}
+		
+.textLogin{
+	color:#ffffff;
+}

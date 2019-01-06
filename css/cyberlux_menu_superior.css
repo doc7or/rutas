@@ -1,0 +1,66 @@
+/* CSS Document */
+
+.nav, .nav a:link, .nav a:visited, .nav a:active, .nav a:hover  {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#F7F7F7;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.anylinkcss{	
+	font-family: Arial, Verdana, Helvetica, sans-serif;	
+	position:absolute;	
+	visibility: hidden;	
+	line-height: 16px;	
+	z-index: 100;	
+	background-color: #000000;
+	width:120px;	
+	overflow: visible;
+	cursor:pointer;
+}
+
+.anylinkcss a:link, .anylinkcss a:visited, .anylinkcss a:active{	
+	width: 100%;	
+	display: block;	
+	text-indent: 3px;	
+	padding: 2px 0;	
+	text-decoration: none;	
+	text-indent: 5px;
+	color: #7D8C08;
+}
+
+.anylinkcss a:hover{ 
+	/*hover background color*/	
+	background-color: #F1F5D3;	
+	color: #E7BE30;	
+	display: block;
+}
+
+.anylinkcss_rep{	
+	font-family: Arial, Verdana, Helvetica, sans-serif;	
+	position:absolute;	
+	visibility: hidden;	
+	line-height: 15px;	
+	z-index: 100;	
+	background-color:#000000;
+	width:200px;	
+	overflow: visible;
+}
+
+.anylinkcss_rep a:link, .anylinkcss_rep a:visited, .anylinkcss_rep a:active{	
+	width: 100%;	
+	display: block;	
+	text-indent: 3px;	
+	padding: 2px 0;	
+	text-decoration: none;	
+	text-indent: 5px;
+	color: #F7F7F7;
+}
+
+.anylinkcss_rep a:hover{ 
+	/*hover background color*/	
+	background-color:#666666;	
+	color: #F7F7F7;	
+	display: block;
+}

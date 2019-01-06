@@ -1,0 +1,244 @@
+/* ::::: https://myposte.poste.it/eXoResources/skin/Stylesheet-lt.css ::::: */
+
+.UIWorkingWorkspace { margin: 0pt; }
+.UIWorkingWorkspace { width: 980px; margin: auto; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.UIWorkingWorkspace .UIPageBody { border-bottom: 1px solid rgb(180, 180, 180); border-left: 1px solid rgb(180, 180, 180); border-right: 1px solid rgb(180, 180, 180); }
+.UIPageBody .VIEW-PAGEBODY .UIPage { padding: 0pt 1px; }
+.UIPageBody .VIEW-PAGEBODY .UIPage .UIComponentBlock { background: none repeat scroll 0% 0% white; height: 100%; }
+.UIPageBody .BLPagebody { background: url('bgpagebody.gif') no-repeat scroll left top transparent; padding-left: 6px; height: 16px; display: none; }
+.UIPageBody .BRPagebody { background: url('bgpagebody.gif') no-repeat scroll right top transparent; padding-right: 6px; height: 16px; }
+.UIPageBody .BMPagebody { background: url('bgpagebody.gif') repeat-x scroll center bottom transparent; height: 16px; }
+.UIPage .UIRowContainer { padding: 0pt; }
+html { margin: 0pt; padding: 0pt; }
+body { background: url('gray-dot-bg.gif') repeat-x scroll left top rgb(255, 255, 255); margin: 0pt; padding: 0pt; font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif; font-size: 11px; overflow-x: hidden; }
+div, table, tr, td, img, form { padding: 0pt; margin: 0pt; font-size: 11px; font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif; }
+p, h1, h2, h3, h4, h5, h6 { margin: 10px 0pt; }
+table { width: 100%; border-spacing: 0pt; border-collapse: collapse; }
+th, td { vertical-align: top; font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif; }
+input, textarea { font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif; }
+img { border: medium none; vertical-align: middle; }
+a { text-decoration: none; color: black; }
+.OverflowContainer { overflow: hidden; width: 100%; }
+.AjaxLoadingMask { width: 180px; height: 110px; background: none repeat scroll 0% 0% white; border: 1px solid rgb(102, 102, 126); padding: 1px; }
+.AjaxLoadingMask .LoadingContainer { height: 108px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(168, 169, 187); }
+.AjaxLoadingMask .LoadingText { text-align: center; padding: 10px 0pt 5px; }
+.AjaxLoadingMask .LoadingProgressBar { width: 32px; height: 40px; background: url('loadingprogress.gif') no-repeat scroll center center transparent; margin: auto; }
+.AjaxLoadingMask .UIAction .ActionButton { float: none; }
+.UIPopupMessages .UIHorizontalTabs { height: 31px; background: url('messagetabbar.gif') repeat-x scroll center bottom transparent; }
+.UIPopupMessages .UIHorizontalTabs .TabsContainer { height: 31px; }
+.UIPopupMessages .PopupMessageBox { padding: 5px; height: 200px; overflow: auto; }
+.UIPopupWindow .ExoMessageDecorator { overflow: hidden; }
+.UIPopupWindow .ExoMessageDecorator .TopLeftCornerDecorator { background: url('exomessagedecorator.png') no-repeat scroll left top transparent; padding-left: 6px; height: 31px; }
+.UIPopupWindow .ExoMessageDecorator .TopRightCornerDecorator { background: url('exomessagedecorator.png') no-repeat scroll right -31px transparent; padding-right: 6px; height: 31px; }
+.UIPopupWindow .ExoMessageDecorator .TopCenterDecorator { background: url('exomessagedecorator.png') repeat-x scroll center -62px transparent; height: 26px; }
+.UIPopupWindow .ExoMessageDecorator .PopupTitle { background: none repeat scroll 0% 0% transparent; text-align: left; }
+.UIPopupWindow .ExoMessageDecorator .PopupTitleIcon { width: 16px; height: 16px; background: url('message.gif') no-repeat scroll 0% 0% transparent; float: left; margin: 4px 0pt 0pt 4px; }
+.UIPopupWindow .ExoMessageDecorator .MiddleLeftSideDecorator { background: url('middleexomessage.png') repeat-y scroll left center transparent; padding-left: 4px; height: 100%; }
+.UIPopupWindow .ExoMessageDecorator .MiddleRightSideDecorator { background: url('middleexomessage.png') repeat-y scroll right center transparent; padding-right: 4px; }
+.UIPopupWindow .ExoMessageDecorator .MiddleCenterDecorator { background: none repeat scroll 0% 0% rgb(225, 225, 225); padding: 6px 7px; }
+.UIPopupWindow .ExoMessageDecorator .UIWindowContent { padding: 0pt; margin: 0pt; border: medium none; }
+.UIPopupWindow .ExoMessageDecorator .PopupContent { background: none repeat scroll 0% 0% transparent; }
+.UIPopupWindow .ExoMessageDecorator .BottomLeftCornerDecorator { background: url('exomessagedecorator.png') no-repeat scroll left -93px transparent; padding-left: 6px; }
+.UIPopupWindow .ExoMessageDecorator .BottomRightCornerDecorator { background: url('exomessagedecorator.png') no-repeat scroll right -99px transparent; padding-right: 6px; }
+.UIPopupWindow .ExoMessageDecorator .BottomCenterDecorator { background: url('exomessagedecorator.png') repeat-x scroll center -105px transparent; height: 6px; }
+.UIPopupWindow .ExoMessageDecorator .UITabContentContainer { background: none repeat scroll 0% 0% white; }
+.UIPopupWindow .ExoMessageDecorator .UITabContentContainer .UITabContent { height: auto; background: none repeat scroll 0% 0% transparent; border: medium none; padding: 0pt; }
+.UIPopupWindow { position: absolute; visibility: hidden; }
+.UIPopupWindow .PopupTitleIcon { float: left; margin: 5px 0pt 0pt 3px; width: 16px; height: 16px; background: url('popupwindow.gif') no-repeat scroll left bottom transparent; }
+.UIPopupWindow .PopupTitle { margin: 4px 26px 0pt; line-height: 16px; vertical-align: middle; cursor: move; color: rgb(0, 0, 0); }
+.UIPopupWindow .CloseButton { float: right; margin: 5px 3px 0pt 0pt; cursor: pointer; width: 23px; height: 17px; background: url('closeicon.gif') no-repeat scroll right top transparent; }
+.UIPopupWindow .TopLeftCornerDecorator { background: url('toppopup.png') no-repeat scroll left top transparent; padding-left: 8px; }
+.UIPopupWindow .TopCenterDecorator { background: url('toppopup.png') repeat-x scroll left -66px transparent; height: 28px; padding-top: 5px; }
+.UIPopupWindow .TopRightCornerDecorator { background: url('toppopup.png') no-repeat scroll right -33px transparent; padding-right: 8px; }
+.UIPopupWindow .MiddleLeftSideDecorator { background: url('middlepopup.png') repeat-y scroll left top transparent; padding-left: 8px; }
+.UIPopupWindow .MiddleCenterDecorator { background: none repeat scroll 0% 0% rgb(225, 225, 225); padding: 0pt 3px 5px; }
+.UIPopupWindow .MiddleRightSideDecorator { background: url('middlepopup.png') repeat-y scroll right top transparent; padding-right: 8px; }
+.UIPopupWindow .UIWindowContent { border: 1px solid rgb(189, 188, 189); }
+.UIPopupWindow .PopupContent { width: 100%; background: none repeat scroll 0% 0% rgb(247, 247, 247); overflow: auto; }
+.UIPopupWindow .BottomLeftCornerDecorator { background: url('bottompopup.png') no-repeat scroll left top transparent; padding-left: 7px; }
+.UIPopupWindow .BottomCenterDecorator { background: url('bottompopup.png') repeat-x scroll left -14px transparent; height: 7px; }
+.UIPopupWindow .BottomRightCornerDecorator { background: url('bottompopup.png') no-repeat scroll right -7px transparent; padding-right: 7px; }
+.UIHorizontalTabs .TabsContainer { height: 24px; }
+.UIHorizontalTabs .UITab { float: left; font-weight: bold; text-align: center; width: auto; }
+.UIHorizontalTabs .MessageTabDialog { padding-top: 1px; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab { line-height: 31px; margin-right: 2px; color: rgb(32, 32, 32); font-weight: normal; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .LeftTab { padding-left: 2px; line-height: 31px; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .RightTab { line-height: 31px; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .MiddleTab { line-height: 31px; cursor: pointer; padding: 4px 8px 5px 4px; color: gray; font-weight: normal; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .TabIcon { padding-left: 30px; line-height: 21px; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .InfoIcon { background: url('messagetabdialog.gif') no-repeat scroll left -84px transparent; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .ErrorIcon { background: url('messagetabdialog.gif') no-repeat scroll left top transparent; }
+.UIHorizontalTabs .MessageTabDialog .DisabledTab .WarningIcon { background: url('messagetabdialog.gif') no-repeat scroll left -42px transparent; }
+.UIAction { padding: 8px 0pt; }
+.UIAction .ActionContainer { width: auto; margin: auto; }
+.UIAction .ActionButton { display: block; float: left; margin: 0pt 3px; cursor: pointer; }
+.UIAction a:hover { color: rgb(5, 142, 230); }
+.UIAction .LightBlueStyle .ButtonLeft { background: url('lightbluestyle.gif') no-repeat scroll left top transparent; padding: 0pt 0pt 0pt 3px; }
+.UIAction .LightBlueStyle .ButtonRight { background: url('lightbluestyle.gif') no-repeat scroll right top transparent; padding: 0pt 3px 0pt 0pt; }
+.UIAction .LightBlueStyle .ButtonMiddle { line-height: 22px; text-align: center; background: url('lightbluestyle.gif') repeat-x scroll center bottom transparent; white-space: nowrap; display: table-cell; padding: 0pt 12px; }
+.UIMaskWorkspace { border: medium none; width: 650px; }
+.UIMaskWorkspace .TopLeftDecorator { background: url('maskworkspace.png') no-repeat scroll left top transparent; padding: 0pt 0pt 0pt 13px; }
+.UIMaskWorkspace .TopRightDecorator { background: url('maskworkspace.png') no-repeat scroll right -13px transparent; padding: 0pt 13px 0pt 0pt; }
+.UIMaskWorkspace .TopLeftDecorator .TopCenterDecorator { height: 13px; background: url('maskworkspace.png') repeat-x scroll center -26px transparent; }
+.UIMaskWorkspace .MiddleLeftDecorator { background: url('middlemaskworkspace.png') repeat-y scroll left top transparent; padding: 0pt 0pt 0pt 10px; }
+.UIMaskWorkspace .MiddleRightDecorator { background: url('middlemaskworkspace.png') repeat-y scroll right top transparent; padding: 0pt 11px 0pt 0pt; }
+.UIMaskWorkspace .MaskContainer { background: none repeat scroll 0% 0% rgb(245, 245, 245); }
+.UIMaskWorkspace .BottomLeftDecorator { background: url('maskworkspace.png') no-repeat scroll left -39px transparent; padding: 0pt 0pt 0pt 13px; }
+.UIMaskWorkspace .BottomRightDecorator { padding: 0pt 13px 0pt 0pt; background: url('maskworkspace.png') no-repeat scroll right -52px transparent; }
+.UIMaskWorkspace .BottomLeftDecorator .BottomCenterDecorator { height: 13px; background: url('maskworkspace.png') repeat-x scroll center -65px transparent; }
+/* ::::: https://myposte.poste.it/resources/portal/css/importPcom.css ::::: */
+
+/* ::::: https://myposte.poste.it/resources/portal/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0pt; padding: 0pt; border: 0pt none; font: inherit; vertical-align: baseline; }
+body { line-height: 1; }
+ol, ul { list-style: none outside none; }
+table { border-collapse: collapse; border-spacing: 0pt; }
+/* ::::: https://myposte.poste.it/resources/portal/css/menu.css ::::: */
+
+a { outline: medium none; }
+#menu_nav_orizzontale { list-style: none outside none; overflow: hidden; width: 912px; margin: 0px 0pt 0pt 23px; padding: 1px 0pt 0pt; }
+#menu_nav_orizzontale li { float: left; width: 116px; margin-left: 0px; text-transform: uppercase; text-decoration: none; text-align: center; }
+#menu_nav_orizzontale a { display: block; color: rgb(0, 92, 171); text-decoration: none; font-weight: bold; font-size: 10px; background-position: 0pt 0pt; font-family: Arial,Helvetica,sans-serif; line-height: 26px; height: 26px; }
+#menu_nav_orizzontale a:active { color: rgb(102, 102, 102); background-position: 0pt -26px; }
+#menu_nav_orizzontale a:hover { color: rgb(0, 92, 171); background-position: 0pt -26px; }
+.tab_button { background-image: url('top-button.jpg'); background-repeat: no-repeat; }
+#menu_nav_orizzontale a.buttonActive { background-position: 0pt -52px; color: rgb(121, 121, 121); }
+#menu_nav_orizzontale a.buttonActive:hover { background-position: 0pt -52px ! important; }
+/* ::::: https://myposte.poste.it/resources/portal/css/style.css ::::: */
+
+body { background-image: url('sfondoheader.jpg'); background-repeat: repeat-x; background-position: 20px 0pt; }
+.UIPageBody .VIEW-PAGEBODY .UIPage { padding: 0px; }
+.UIWorkingWorkspace { width: 960px; }
+.UIWorkingWorkspace .UIPageBody { border: medium none ! important; }
+.genericPadding { padding: 0pt 55px; line-height: 16px; }
+.box { padding: 15px 0pt; }
+.cleared { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0pt; height: 0pt; }
+.nascondi { display: none; }
+.internalcommon {  }
+.fl { float: left; }
+.fr { float: right; }
+#wrapper-header { height: 62px; width: 100%; background-image: url('sfondoheader.jpg'); background-repeat: repeat-x; }
+#welcome { height: 30px; padding: 10px; width: 914px; margin: 0px auto; }
+#contenitore { width: 960px; margin: -6px auto 0px; text-align: left; }
+#header { margin: 0pt auto; width: 910px; }
+.subNav { font-family: Arial,Helvetica,sans-serif; padding: 30px 0pt 0pt; width: 220px; text-align: right; }
+.login { font-size: 10px; background-position: center bottom; background-image: url('myposteglobal.gif'); background-repeat: no-repeat; height: 15px; width: 220px; text-indent: -10px; }
+.login a { padding: 0pt 3px; }
+.logo { margin: 10px 0pt; }
+#welcome .testo-welcome { padding: 10px 0pt 0pt 2px; }
+a.linkProfilo:hover {  }
+.nomeutente { text-transform: capitalize; }
+#areaCenter { background-image: url('sfondoareacenter.jpg'); background-repeat: repeat-y; min-height: 400px; height: auto ! important; }
+#footer { text-align: right; font-size: 10px; margin: 0pt auto; width: 960px; height: 140px; background-image: url('poste-italiane-bordo.jpg'); background-repeat: no-repeat; background-position: left top; padding-top: 30px; }
+#navMenu { margin: 0pt; float: left; height: 25px; width: 960px; background-image: url('top-linea.jpg'); background-repeat: no-repeat; background-position: 371px bottom; padding-bottom: 6px; }
+#areaMain { margin: auto; height: auto ! important; min-height: 300px; }
+.paginazione ul, li { list-style: none outside none; }
+:first-child + html .portlet_dx { width: 663px; padding-left: 156px; margin-left: 0pt; }
+:first-child + html .portlet_dx .sfondoGrigio { width: 643px; }
+:first-child + html #navMenu { padding-bottom: 6px; background-position: 371px 23px; margin-top: 1px; margin-left: 0pt; }
+:first-child + html ul#menu_nav_orizzontale { margin-left: -1px ! important; }
+/* ::::: https://myposte.poste.it/resources/portal/css/tipografia.css ::::: */
+
+* { outline: medium none; }
+body { font-family: Verdana,Geneva,sans-serif; font-size: 11px; color: rgb(102, 102, 102); text-align: center; }
+a, a:link, a:visited { color: rgb(0, 92, 171); text-decoration: none; cursor: pointer; outline: medium none ! important; }
+h1 { font-size: 220%; line-height: 130%; }
+h1, h2, h3, h4, h4, h5, h6 { margin-bottom: 10px; }
+img { border: medium none; }
+span { text-align: justify; }
+p { text-align: justify; }
+.bold { font-weight: bold; }
+.transparent { background-color: rgb(255, 255, 255); }
+.destra { text-align: right ! important; }
+input { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(226, 226, 226); font-size: 11px; color: rgb(102, 102, 102); padding: 2px 3px; outline: medium none; }
+.pulsante { font-family: Arial,Helvetica,sans-serif; color: rgb(0, 102, 204); font-size: 10px; width: 100px; height: 22px; margin: 0pt; padding: 0pt; background-color: rgb(255, 255, 255); background-position: 0px -88px; background-repeat: no-repeat; cursor: pointer; text-transform: uppercase; text-align: center; border: 0pt solid rgb(255, 255, 255); outline: medium none; }
+.pulsante:hover { color: rgb(119, 119, 119); background-position: 0pt -110px; }
+.pulsantegiallo { background-image: url('buttongiallo.jpg') ! important; }
+.pulsantegrigio { background-image: url('buttongrigio.jpg') ! important; color: rgb(51, 51, 51) ! important; }
+.pulsantegrigio:hover { color: rgb(255, 255, 255) ! important; }
+/* ::::: https://myposte.poste.it/resources/portal/css/jquery-ui.css ::::: */
+
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget-content { border: 1px solid rgb(221, 221, 221); background: url('ui-bg_highlight-soft_100_eeeeee_1x100.png') repeat-x scroll 50% top rgb(238, 238, 238); color: rgb(51, 51, 51); }
+.ui-widget-header { border: 1px solid rgb(237, 240, 0); background: url('ui-bg_highlight-soft_100_edf000_1x100.png') repeat-x scroll 50% 50% rgb(237, 240, 0); color: rgb(0, 115, 172); font-weight: bold; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid rgb(237, 240, 0); background: url('ui-bg_glass_100_edf000_1x400.png') repeat-x scroll 50% 50% rgb(237, 240, 0); font-weight: bold; color: rgb(0, 115, 172); }
+.ui-widget :active { outline: medium none; }
+.ui-corner-left { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+.ui-corner-all { border-radius: 4px 4px 4px 4px; }
+button.ui-button::-moz-focus-inner { border: 0pt none; padding: 0pt; }
+.ui-progressbar { height: 2em; text-align: left; }
+.ui-progressbar .ui-progressbar-value { margin: -1px; height: 100%; }
+/* ::::: https://myposte.poste.it/resources/portal/css/myposte.css ::::: */
+
+.boxupdown { padding-left: 0px; padding-right: 0px; }
+#informazioni { width: 850px; float: left; clear: both; margin-top: 2px; }
+#informazioniutili { width: 405px; float: left; padding-right: 50px; font-size: 10px; padding-top: 10px; }
+#comunicazioni { height: 120px; }
+#novita { float: left; width: 355px; background-image: url('novita.jpg'); background-repeat: no-repeat; padding-top: 80px; padding-left: 6px; font-size: 10px; margin-top: 5px; }
+#novita h1 { font-size: 11px; margin-bottom: 0pt; margin-top: -10px; }
+#novita.conimmagine p { position: relative; padding-right: 5px; }
+#novita.conimmagine h1 { padding-right: 5px; }
+#novita.conimmagine p a { position: absolute; right: 0pt; top: -15px; }
+.barre { padding-bottom: 10px; padding-top: 20px; }
+.barre .ui-progressbar { height: 10px ! important; width: 106px; }
+.barre .ui-widget { margin-top: 2px; }
+.barre .ui-widget-header { border: 1px solid rgb(218, 218, 218) ! important; background: url('ui-bg_highlight-soft_100_edf000_1x100.png') repeat-x scroll 50% 50% rgb(237, 240, 0) ! important; }
+.spaziotesto { padding-left: 70px; }
+#spazio_bacheca { margin-bottom: 10px; }
+#accessorapido { margin-top: 0px; }
+.colonna ul { float: left; }
+.colonna li { height: 24px; padding-right: 22px; padding-left: 20px; background-image: url('elenco_accesso.jpg'); background-repeat: no-repeat; background-position: left center; line-height: 24px; float: left; width: auto; clear: both; }
+:first-child + html #colonna5 a { white-space: nowrap; }
+.w140 { width: 140px ! important; }
+.w95 { width: 95px ! important; }
+#titolo_accessorapido { background-image: url('accesso-rapido.jpg'); background-repeat: no-repeat; height: 20px; padding-bottom: 10px; }
+#areaCenter { min-height: 300px; }
+#topbottom { margin-top: -25px; }
+.ui-widget-content { background-image: none; background-color: rgb(255, 255, 255); }
+#mostra_news { bottom: -5px; color: rgb(0, 92, 171); cursor: pointer; display: block; position: absolute; right: 0pt; width: 80px; }
+#avvertimento_nuovo_ambiente .destra { width: 882px; bottom: 10px; position: absolute; }
+#avvertimento_nuovo_ambiente p { font-size: 11px; line-height: 12px; }
+/* ::::: https://myposte.poste.it/resources/portal/css/applicazioni.css ::::: */
+
+
+.linkLookingButtonBlu {
+	font-weight: bold; 
+	cursor: hand; 
+	background-color: #4b69ff; 
+	text-decoration: none; 
+	color: #ffffff; 
+	
+}
+
+
+.ui-widget { font-size: 10px; font-weight: normal; }
+.ui-widget :active { outline: medium none; }
+.sfondoGrigio { margin: 10px 0px; background: url('sfondogrigio.png') no-repeat scroll center bottom transparent; padding: 5px 5px 5px 10px; border: 1px solid rgb(238, 238, 238); }
+table { margin: 20px 0pt; width: 100%; font-size: 11px; clear: both; border-collapse: collapse; color: rgb(68, 68, 68); border: 2px solid rgb(255, 255, 255); }
+td, th { padding: 1px 2px; border: 1px solid rgb(221, 221, 221); }
+table a:link { text-decoration: none; }
+/* ::::: https://myposte.poste.it/resources/myposte-preferiti/css/view.css ::::: */
+
+#topbottom { background-image: url('sfondobottom-top.jpg'); background-repeat: no-repeat; background-position: center center; height: 48px; }
+#contenitore_preferiti { margin: 0pt auto; text-align: left; width: 960px; }
+#areaMain_preferiti { height: auto ! important; margin: auto; min-height: 300px; }
+#areaCenter_preferiti { min-height: 150px ! important; height: 150px ! important; background-image: url('sfondoareacenter.jpg'); background-repeat: repeat-y; }
+#myposte { margin-left: auto; margin-right: auto; position: relative; padding: 2px 0pt; width: 824px; height: 180px; }
+#infopreferiti { background-image: url('preferiti.jpg'); background-repeat: no-repeat; padding-top: 15px; margin-left: -15px; }
+.preferitibutton { margin-right: -15px; }
+a.prev, a.next { background: url('miscellaneous_sprite.png') no-repeat scroll 0% 0% transparent; width: 45px; height: 50px; display: block; position: absolute; top: 50px; }
+a.prev { left: 0pt; background-position: 0pt 0pt; margin-left: -20px; }
+a.prev:hover { background-position: 0pt -50px; }
+a.prev.disabled { cursor: default; }
+a.next { right: 0pt; background-position: -50px 0pt; margin-right: -20px; }
+a.next:hover { background-position: -50px -50px; }
+a.next.disabled { cursor: default; }
+a#dynamic_prev.disabled:hover { background-position: 0pt 0pt; cursor: default; }
+a#dynamic_next.disabled:hover { background-position: -50px 0pt; cursor: default; }
+a.prev span, a.next span { display: none; }
+:first-child + html #dynamic { top: 0pt; left: 0pt; }
+.carousel-box {  }
+#carousel { list-style-type: none; margin: 0pt; padding: 0pt; left: 50px ! important; }
+#carousel li { margin: 10px 2px 0px 0px; padding: 10px; float: left; width: 82px; height: 90px; font-size: 7pt; line-height: 9pt; text-align: center; background: none repeat scroll 0% 0% rgb(255, 255, 255) ! important; border: medium none ! important; font-weight: normal; }
+#carousel li :hover { cursor: pointer; }

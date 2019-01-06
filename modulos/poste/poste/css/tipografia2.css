@@ -1,0 +1,314 @@
+/*
+- Tipografia CSS
+- GED
+- Poste Italiane
+*/
+* {
+	outline:none;
+}
+	
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666;
+	text-align: center;
+}
+/* LINK */
+a, a:link, a:visited {
+	color:#005cab;
+	text-decoration:none;
+	cursor: hand;
+	cursor: pointer;
+	outline:none !important;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+/* H1-H6 TAG */
+
+h1 {
+	font-size: 220%;
+	line-height: 130%;
+}
+h2 {
+	font-size: 200%;
+	line-height: 125%;
+}
+h3 {
+	font-size: 180%;
+	line-height: 120%;
+}
+
+h4 {
+	font-size: 160%;
+	line-height: 115%;
+}
+h5 {
+	font-size: 140%;
+	line-height: 110%;
+}
+h6 {
+	font-size: 120%;
+	line-height: 105%;
+}
+
+h1,h2,h3,h4,h4,h5,h6
+{
+	margin-bottom: 10px
+}
+
+.abstract h5{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* 1-H6 TAG ad-hoc */
+
+.portlet_dx h3{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.area_informativa h1 , .area_informativa h2 , .area_informativa h3{
+    line-height: normal;
+    font-weight: bold;
+}
+
+.area_informativa h1 {
+	font-size: 1.0em;
+    color:#005CAB;
+}
+
+.area_informativa h2 {
+	font-size: 1.0em;
+}
+
+.area_informativa h3 {
+	font-size: 1.0em;
+}
+
+/* image TAG */
+img {
+	border: none;
+	/* padding: 5px; */
+}
+/* HR (riga) TAG */
+
+hr {
+	color: #eeeeee;
+	background-color: #eeeeee;
+	height: 1px;
+}
+/* SPAN e PARAGRAPH TAG */
+span {
+	text-align:justify;
+}
+
+p {
+	text-align:justify;
+}
+
+/***********************************************
+CLASSI TIPOGRAFICHE
+************************************************/
+
+.bold {
+	font-weight:bold;
+}
+/* background color */
+
+.grigio {
+	background-color: #999;
+}
+.transparent {
+	background-color: #fff;
+}
+/* tipografia colori testi */
+.bluPosteTypo {
+	color:#005CAB;
+}
+.yellowPosteTypo {
+	color: #E8F508;
+}
+.redTypo {
+	color:#CC0000;
+}
+
+.sinistra {
+	text-align:left !important;
+}
+
+.destra {
+	text-align:right !important;
+}
+
+.centro {
+	text-align:center !important;
+}
+
+/***********************************************
+CLASSE DI PULSANTE PER LINK
+************************************************/
+/*Parte DX che scorre */
+a.buttongiallo,a.buttongrigio {
+
+	display: block;
+	float: right;
+	height: 22px;
+	margin-right: 6px;
+	padding-right: 8px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	cursor:pointer;
+	cursor:hand;
+	text-transform:uppercase;
+}
+
+a.buttongiallo {
+	background: transparent url(../jpg/hrefGialloDx.jpg) no-repeat scroll top right;
+	color: #005cab;
+}
+
+a.buttongrigio {
+	background: transparent url(../jpg/hrefGrigioDx.jpg) no-repeat scroll top right;
+	color: #797979;
+}
+
+/*Hover DX*/
+a.buttongiallo:hover, a.buttongrigio:hover  {
+	background-position:right -22px;
+}
+
+/* Parte SX statica */ 
+a.buttongiallo span, a.buttongrigio span  {
+	display: block;
+	padding: 3px 0 3px 9px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.buttongiallo span {
+background: transparent url(../jpg/hrefGialloSx.jpg) no-repeat;
+}
+
+a.buttongrigio span {
+background: transparent url(../jpg/hrefGrigioSx.jpg) no-repeat;
+}
+
+/*Hover SX*/
+a.buttongiallo:hover span, a.buttongrigio:hover span {
+	text-decoration:none;
+	background-position: 0 -22px;
+}
+a.buttongiallo:hover span{
+	color:#777;
+}
+ a.buttongrigio:hover span {
+	color:#fff;
+}
+
+/***********************************************
+FORM
+************************************************/
+
+/* Fiedlset */
+fieldset {
+	border: none;
+}
+
+textarea {
+	background: #fff;
+	font-size: 11px;
+	color: #555;
+	padding: 2px 2px;
+	width: 70%;
+}
+
+select {
+	background-color: #fff;
+	color:#666;
+	border:1px solid #E2E2E2;
+	width: 220px;
+	font-size: 11px;
+	padding: 1px;
+}
+
+input {
+	background: #fff;
+	border:1px solid #E2E2E2;
+	background-color: #fff;
+	font-size: 11px;
+	color: #666;
+	padding: 2px 3px;
+	outline: none;
+	}
+
+
+/*Pulsante Submit*/
+
+.pulsante {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #0066CC;
+	font-size: 10px;
+	width: 100px;
+	height:22px;
+	border: none;
+	margin:0;
+	padding:0;
+    background-color: #fff;
+	background-position: 0px -88px;
+    background-repeat: no-repeat;
+	cursor:pointer;
+	cursor:hand;
+	text-transform:uppercase;
+	text-align:center;
+	border: 0 solid #fff;
+	outline: none;
+}
+
+.pulsante:hover {
+	color: #777;
+	background-position: 0 -110px
+}
+
+.pulsantegiallo {
+	background-image: url(../jpg/buttonGiallo.jpg)!important;
+}
+
+.pulsantegrigio {
+  background-image: url(../jpg/buttonGrigio.jpg)!important;
+  color: #333 !important;
+}
+
+.pulsantegrigio:hover {color: #fff !important;}
+
+.pulsante50 {background-position:0px 0px; width: 50px !important;}
+.pulsante50:hover {background-position: 0 -22px !important;}
+
+.pulsante75 {background-position:0px -44px; width: 75px !important;}
+.pulsante75:hover {background-position: 0 -66px !important;}
+
+.pulsante125 {background-position:0px -132px; width: 125px !important;}
+.pulsante125:hover {background-position: 0 -154px !important;}
+
+.pulsante150 {background-position: 0 -176px; width: 150px !important;}
+.pulsante150:hover {background-position: 0 -198px !important;}
+
+.pulsante175 {background-position: 0 -220px; width: 175px !important;}
+.pulsante175:hover {background-position: 0 -242px !important;}
+
+.pulsante200 {background-position: 0 -264px; width: 200px !important;}
+.pulsante200:hover {background-position: 0 -286px !important;}
+
+.pulsante250 {background-position: 0 -308px; width: 250px !important;}
+.pulsante250:hover {background-position: 0 -330px !important;}
+
+.pulsante300 {background-position: 0 -352px; width: 300px !important;}
+.pulsante300:hover {background-position: 0 -374px !important;}
+
+
+
+

@@ -1,0 +1,438 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #fff; FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #444; TEXT-ALIGN: center
+}
+HTML {
+	BACKGROUND: #fff; FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #444; TEXT-ALIGN: center
+}
+UL.lista {
+	FONT-SIZE: 11px; MARGIN: 5px 0px
+}
+UL.lista LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; BACKGROUND: url(img/arrow-g.gif) no-repeat 0px 1px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px; LIST-STYLE-TYPE: none
+}
+A {
+	COLOR: #373abe; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #373abe; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #373abe; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #373abe; TEXT-DECORATION: underline
+}
+.business {
+	FONT-WEIGHT: normal! important; COLOR: #ff0000! important
+}
+.business A {
+	FONT-WEIGHT: normal! important; COLOR: #ff0000! important
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+TABLE {
+	FONT-SIZE: 11px
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 760px; TEXT-ALIGN: left
+}
+#colonnaSinistra {
+	FLOAT: left; WIDTH: 165px
+}
+#colonnaDestra {
+	FLOAT: right
+}
+#contenitoreHeader {
+	WIDTH: 760px; HEIGHT: 54px
+}
+#header_box {
+	BORDER-RIGHT: 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0px solid; HEIGHT: 54px; TEXT-ALIGN: left
+}
+#header_box IMG {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+#header_menu {
+	FONT-SIZE: 11px; RIGHT: 0px; POSITION: relative; TOP: 6px; HEIGHT: 0px; TEXT-ALIGN: left
+}
+#header_menu A {
+	FONT-WEIGHT: bold
+}
+#header_menu IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 8px 0px 0px 2px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#header_menu SPAN {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; MARGIN: 0px 0px 0px 3%
+}
+#header_menu SPAN A {
+	FONT-WEIGHT: normal
+}
+#header_menu SPAN .login {
+	MARGIN: 0px 0px 0px 3px
+}
+.autenticazione {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px
+}
+SELECT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+FORM {
+	DISPLAY: inline
+}
+.intestazionetabella {
+	FONT-SIZE: 11px; COLOR: #565656; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.b10 {
+	FONT-SIZE: 11px; COLOR: #565656; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.b10 A {
+	FONT-SIZE: 11px; COLOR: #565656; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.b10 A:hover {
+	FONT-SIZE: 11px; COLOR: #565656; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.w10 {
+	FONT-SIZE: 11px; COLOR: #ffffff
+}
+.w10 A {
+	FONT-SIZE: 11px; COLOR: #ffffff
+}
+.w10 A:hover {
+	FONT-SIZE: 11px; COLOR: #ffffff
+}
+.w10 A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.w10:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.w11 {
+	FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.blu10 {
+	FONT-SIZE: 11px; COLOR: #565656; TEXT-DECORATION: none
+}
+.blu12 {
+	FONT-SIZE: 11px; COLOR: #565656; TEXT-DECORATION: none
+}
+.yellow12 {
+	FONT-SIZE: 11px; COLOR: #e8f404; TEXT-DECORATION: none
+}
+.space5 {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.space2 {
+	MARGIN-TOP: 4px; FONT-SIZE: 2px; MARGIN-BOTTOM: 0px
+}
+.orange {
+	COLOR: #ff9900
+}
+.backGreen {
+	BACKGROUND: #bbe700
+}
+.formGreen {
+	BACKGROUND: #bbe700
+}
+.backYellow {
+	BACKGROUND: #e8f404
+}
+.formYellow {
+	BACKGROUND: #e8f404
+}
+.formWhite {
+	BACKGROUND: #ffffff
+}
+.backBlue {
+	BACKGROUND: #373abe; COLOR: #ffffff
+}
+.backBlue A:link {
+	BACKGROUND: #373abe; COLOR: #ffffff
+}
+.backBlue A:visited {
+	BACKGROUND: #373abe; COLOR: #ffffff
+}
+.backBlue A:active {
+	BACKGROUND: #373abe; COLOR: #ffffff
+}
+.backBlue A:hover {
+	BACKGROUND: #373abe; COLOR: #ffffff
+}
+.formBlue {
+	BACKGROUND: #373abe; COLOR: #ffffff
+}
+.backDarkYellow {
+	BACKGROUND: #ffcc33
+}
+.backGray {
+	BACKGROUND: #dee3ef
+}
+.formYellow {
+	FONT-SIZE: 11px
+}
+.formGreen {
+	FONT-SIZE: 11px
+}
+.formBlue {
+	FONT-SIZE: 11px
+}
+.formWhite {
+	FONT-SIZE: 11px
+}
+.win585u {
+	WIDTH: 585px; TEXT-ALIGN: left
+}
+.win585u .wincontent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.creaPagina {
+	MARGIN-BOTTOM: 10px; WIDTH: 570px
+}
+.win585u H1 {
+	FONT-SIZE: 12px; COLOR: #373abd; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.win585u .abstract {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 10px
+}
+.bloccoA {
+	VERTICAL-ALIGN: top
+}
+.bloccoA2 {
+	PADDING-LEFT: 10px; VERTICAL-ALIGN: top
+}
+.bloccoB {
+	PADDING-RIGHT: 10px
+}
+DIV.tpl_testata DIV H1 A:hover {
+	TEXT-DECORATION: none
+}
+DIV.tpl_paragrafo {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px
+}
+.tpl_paragrafo SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+DIV.tpl_paragrafo IMG {
+	MARGIN: 0px
+}
+DIV.tpl_paragrafoTestoevidenziato {
+	FONT-SIZE: 11px
+}
+DIV.tpl_tabella {
+	FONT-SIZE: 11px; COLOR: #666
+}
+TABLE.dati_tabella {
+	BORDER-RIGHT: #444 0px solid; BORDER-TOP: #444 1px solid; MARGIN-BOTTOM: 2px; BORDER-LEFT: #444 1px solid; COLOR: #444; BORDER-BOTTOM: #444 0px solid; BORDER-COLLAPSE: collapse
+}
+.dati_tabella TD {
+	BORDER-RIGHT: #444 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #444 0px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #444 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #444 1px solid
+}
+TH {
+	BORDER-RIGHT: #444 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #444 0px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #444 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #444 1px solid
+}
+.notetabella {
+	FONT-SIZE: 11px; MARGIN-BOTTOM: 5px
+}
+DIV.tpl_elencoPuntato {
+	FONT-SIZE: 11px; MARGIN-BOTTOM: 10px
+}
+.tpl_elencoPuntato SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+DIV.tpl_immagineTesto {
+	FONT-SIZE: 11px; TEXT-ALIGN: left
+}
+DIV.tpl_immagineTesto IMG {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.tpl_testo {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 0px
+}
+DIV.tpl_elenco {
+	FONT-SIZE: 11px
+}
+DIV.tpl_elenco IMG {
+	PADDING-RIGHT: 5px; FLOAT: left
+}
+.tpl_elenco SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+DIV.tpl_news {
+	FONT-SIZE: 11px
+}
+DIV.tpl_testata {
+	MARGIN: 5px 0px 10px; TEXT-ALIGN: left
+}
+DIV.tpl_testata IMG {
+	MARGIN: 0px 5px 0px 0px
+}
+DIV.tpl_progetti {
+	FONT-SIZE: 11px; MARGIN-BOTTOM: 10px
+}
+.tpl_progetti SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.scriptNudo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.include {
+	MARGIN-BOTTOM: 10px; WIDTH: 570px
+}
+.bisogno_top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bisogno_bottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.include IMG {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+DIV.footer {
+	BORDER-TOP: #c2cbdd 1px solid; FONT-SIZE: 10px; MARGIN: 15px 0px; PADDING-TOP: 4px; HEIGHT: 20px
+}
+DIV.footer A {
+	FONT-WEIGHT: bold
+}
+.floatAnnulla {
+	CLEAR: both
+}
+DIV#menusx {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/bkmenu.jpg) #e4e8f1 no-repeat 50% bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 160px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+DIV#menusx DIV.menuheaderGiallo {
+	BORDER-RIGHT: #e8f404 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusx DIV.menuheaderVerde {
+	BORDER-RIGHT: #bee700 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusx DIV.menuheaderBlu {
+	BORDER-RIGHT: #373abe 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusx DIV.menuheaderRosso {
+	BORDER-RIGHT: #ee1b22 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusx DIV#prodotti {
+	BORDER-RIGHT: #f00 8px solid; BACKGROUND: #c7cfe2
+}
+DIV#menusx IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+DIV#menusx UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 14px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DIV#menusx LI {
+	PADDING-RIGHT: 4px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px; LIST-STYLE-TYPE: none
+}
+DIV#menusx UL UL LI {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: normal; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+DIV#menusx LI.openarrow {
+	PADDING-LEFT: 18px; FONT-WEIGHT: bold; BACKGROUND: url(img/openarrow.gif) no-repeat 8px 8px
+}
+DIV#menusx LI.openarrowSup {
+	PADDING-LEFT: 18px; FONT-WEIGHT: normal; BACKGROUND: url(img/openarrow.gif) no-repeat 8px 8px
+}
+DIV#menusx LI.closearrow {
+	PADDING-LEFT: 18px; FONT-WEIGHT: normal; BACKGROUND: url(img/closearrow.gif) no-repeat 8px 8px
+}
+DIV#menusx UL UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV#menusx UL UL UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV#menusxSingolo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/bkmenu.jpg) #e4e8f1 no-repeat 50% bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 160px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+DIV#menusxSingolo DIV.menuheaderGiallo {
+	BORDER-RIGHT: #e8f404 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusxSingolo DIV.menuheaderVerde {
+	BORDER-RIGHT: #bee700 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusxSingolo DIV.menuheaderBlu {
+	BORDER-RIGHT: #373abe 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusxSingolo DIV.menuheaderRosso {
+	BORDER-RIGHT: #ee1b22 20px solid; PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #c7cfe2; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+DIV#menusxSingolo IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+DIV#menusxSingolo UL {
+	PADDING-RIGHT: 0px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 6px; MARGIN: 0px; LINE-HEIGHT: 14px; PADDING-TOP: 6px; LIST-STYLE-TYPE: none
+}
+DIV#menusxSingolo LI {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px; LIST-STYLE-TYPE: none
+}
+DIV#menusxSingolo UL UL LI {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: normal; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+DIV#menusxSingolo UL UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+DIV#menusxSingolo UL UL UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.boxProdottiPostali {
+	WIDTH: 185px; COLOR: #656565; HEIGHT: 220px
+}
+.boxProdottiBancoposta {
+	WIDTH: 185px; COLOR: #656565; HEIGHT: 220px
+}
+.boxaltriProdotti {
+	WIDTH: 185px; COLOR: #656565; HEIGHT: 220px
+}
+.boxBusiness {
+	WIDTH: 185px; COLOR: #656565; HEIGHT: 220px
+}
+.boxProdottiPostali {
+	BACKGROUND: url(img/boxgialloSx2.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxProdottiBancoposta {
+	BACKGROUND: url(img/boxgialloCx2.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxaltriProdotti {
+	BACKGROUND: url(img/boxgialloDx2.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxTitleProdottiPostali {
+	PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 1px solid
+}
+.boxTitleProdottiBancoposta {
+	PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 1px solid
+}
+.boxTitlealtriProdotti {
+	PADDING-RIGHT: 1px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 1px solid
+}
+.boxTitleProdottiPostali {
+	BORDER-RIGHT: #bee700 20px solid
+}
+.boxTitleProdottiBancoposta {
+	BORDER-RIGHT: #373abe 20px solid
+}
+.boxTitlealtriProdotti {
+	BORDER-RIGHT: #e8f404 20px solid
+}
+.segnalazioniBusiness {
+	BACKGROUND: url(img/parentesi_business.gif) no-repeat; MARGIN: 0px; WIDTH: 180px; TEXT-ALIGN: left
+}
+.segnalazioniBusinessClose {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/parentesibase_business.gif) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 180px; PADDING-TOP: 0px; HEIGHT: 5px
+}
+.segnalazioniServizionline {
+	BACKGROUND: url(img/parentesi_servizionline.gif) no-repeat; MARGIN: 0px; WIDTH: 180px; TEXT-ALIGN: left
+}
+.segnalazioniServizionlineClose {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/parentesibase_servizionline.gif) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 180px; PADDING-TOP: 0px; HEIGHT: 5px
+}

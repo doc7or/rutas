@@ -1,0 +1,27 @@
+/*
+	Foglio di stile per Internet Explorer
+*/
+#contenitore-corpo, #contenitore-corpo_privati, #contenitore-corpo_pmi, #contenitore-advertising, #contenitore-advertising_imprese, #contenitore-informazioni, #contenitore-advertising_privati{
+    zoom: 1 !important;
+}
+/* *:first-child+html */
+div#accesso-rapido-privati ul.lista-accesso-rapido_uno{
+	width: 90px !important;
+}
+
+div#accesso-rapido-privati ul.lista-accesso-rapido_tre{
+	/*width: 110px !important;*/
+}
+*:first-child+html #link-rapidi{
+    width: 342px !important;
+}
+*:first-child+html #accesso-rapido-privati{
+    width: 428px !important;
+}
+
+*:first-child+html #societa-gruppo ul.societa-uno{
+	width: 80px;
+}
+*:first-child+html #link-rapidi ul.link-due{
+    width:130px!important;
+} 

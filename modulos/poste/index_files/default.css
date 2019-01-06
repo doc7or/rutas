@@ -1,0 +1,502 @@
+body, html {
+	background:#FFFFFF;
+	color:#666666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	line-height:normal;
+	margin-top: 0px;
+}
+* {margin:0; padding:0}
+p {margin:0; padding:0;}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+a:link, a:visited {
+	color:#373ABD;
+	text-decoration:none;
+}
+a:hover {
+	color:#373ABD;
+	text-decoration:underline;
+}
+#page {
+	text-align:left;
+	width:977px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#header_box {
+	float:left;
+	height:55px;
+	padding:0;
+	text-align:left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#header_menu {
+	float:left;
+	text-align:left;
+	top:10px;
+	margin-top: 14px;
+	width:70%;
+}
+#container {
+	background-image: url(images/top_container.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #dde4ee;
+}
+#nav_chisiamo {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+#nav_chisiamo li {
+	float: left;
+	list-style-type: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #666;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#registrazione {
+	padding: 0px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#registrazione li {
+	font-size: 0.7em;
+	list-style-type: none;
+}
+#colonnaSinistraHome {
+	float: left;
+	width: 795px;
+	background-image: url(images/separatore_coldx.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+#colonnaDestraHome {
+	float: right;
+	width: 180px;
+	padding-left: 2px;
+}
+#bisogni {
+	background-image: url(images/tab_bisogni.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 27px;
+	margin-top: 10px;
+	text-align: right;
+}
+#main_content {
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	padding: 15px;
+	margin-left: 10px;
+}
+#col_prodotti {
+	width: 268px;
+	float: left;
+	margin-right: 10px;
+}
+#col_testo {
+	float: right;
+	width: 460px;
+}
+.tit_prodotti {
+	font-size: 0.7em;
+	color: #373ABD;
+	background-image: url(images/box_prodotti.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 55px;
+}
+.tit_online {
+	font-size: 0.7em;
+	color: #373ABD;
+	background-image: url(images/box_online.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 1px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 55px;
+}
+ul#menu_prodotti, 
+ul#menu_prodotti li, 
+ul#menu_prodotti ul    {
+	margin: 0px;
+	padding: 0px;
+	width: 231px;  /*For KHTML*/
+	list-style: none;
+}
+ul#menu_prodotti:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+ul#menu_prodotti li {
+	float: left; /*For IE 7 lack of compliance*/
+	display: block !important; /*For GOOD browsers*/
+	display: inline; /*For IE*/
+	position: relative;
+	list-style-type: none;
+}
+
+/* Root Menu */
+ul#menu_prodotti a {
+	font-size: 0.7em;
+	height: auto !important;
+	height: 1%; /*For IE*/
+	line-height: 31px;
+	display: block;	
+	
+}
+/* Root Menu Hover Persistence */
+ul#menu_prodotti a:hover,
+ul#menu_prodotti li:hover a,
+ul#menu_prodotti li.iehover a {
+	color: #373abf;
+}
+/* 2nd Menu */
+ul#menu_prodotti li:hover li a,
+ul#menu_prodotti li.iehover li a {
+	color: #373abf;
+	padding-left: 10px;
+	margin-left:2px;	
+}
+
+/* 2nd Menu Hover Persistence */
+ul#menu_prodotti li:hover li a:hover,
+ul#menu_prodotti li:hover li:hover a,
+ul#menu_prodotti li.iehover li a:hover,
+ul#menu_prodotti li.iehover li.iehover a {
+  color: #373abf;
+}
+ul#menu_prodotti ul,
+ul#menu_prodotti ul ul,
+ul#menu_prodotti ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 268px;
+  filter: Alpha(Opacity=95);
+  -moz-opacity:.95;
+  opacity:.95;
+  background: #e7f0f5;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#menu_prodotti li:hover ul ul,
+ul#menu_prodotti li:hover ul ul ul,
+ul#menu_prodotti li.iehover ul ul,
+ul#menu_prodotti li.iehover ul ul ul {
+  display: none;
+}
+
+ul#menu_prodotti li:hover ul,
+ul#menu_prodotti ul li:hover ul,
+ul#menu_prodotti ul ul li:hover ul,
+ul#menu_prodotti li.iehover ul,
+ul#menu_prodotti ul li.iehover ul,
+ul#menu_prodotti ul ul li.iehover ul {
+  display: block;
+}
+
+ul#menu_prodotti li.b_postali {
+	background-image: url(images/b_verde.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 37px;
+}
+ul#menu_prodotti li.b_bancoposta {
+	background-image: url(images/b_blu.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 37px;
+}
+ul#menu_prodotti li.b_servizi {
+	background-image: url(images/b_giallo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 37px;
+}
+ul#menu_prodotti li.b_business {
+	background-image: url(images/b_rosso.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 37px;
+}
+
+.news {
+	color:#666666;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	padding:0;
+	text-align:left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#div_servuno,#div_servdue   {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #D9EC07;
+	border-bottom-color: #D9EC07;
+	border-left-color: #D9EC07;
+	padding: 4px;
+	margin: 0px;
+	background-color: #FBFFE1;
+}
+#cont_servuno {
+	display: block;
+	line-height: 1.6em;
+}
+#cont_servdue {  display: none;}
+
+ul.tabs {
+	list-style-type: none;
+	float: right;
+	font-size: 0.6em;
+	color: #373ABD;
+	margin-bottom: 10px;
+}
+ul.tabs li  {
+	float: left;
+	text-decoration: none;
+	padding-right: 3px;
+	margin-right: 3px;
+	font-weight: normal;
+}
+#div_servuno   li.tab_servuno {
+	font-weight: bold;
+	text-decoration: underline;
+}
+#div_servdue  li.tab_servdue {
+	font-weight: bold;
+	text-decoration: underline;
+}
+ul.tabnav a:link, ul.tabnav a:visited{
+	display: block;
+	color: #373ABD;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#serv_tab  .tablab {
+	text-decoration: none;
+}
+#serv_tab li.tab_servuno{
+	text-decoration: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #373ABD;
+	cursor: pointer;
+  }
+#serv_tab li.tab_servdue{
+	text-decoration: none;
+	cursor: pointer;
+}
+.tab_content {
+	display: none;
+}
+#serv_tab {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#cont_servdue ul {
+	list-style-type: none;
+}
+
+#cont_servdue  li   {
+	color: #3a43b8;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	background-image: url(images/frecce.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	margin-left: 10px;
+	height: 15px;
+	padding-top: 3px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+}
+#cont_servdue  a  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3a43b8;
+	text-decoration: none;
+}
+#cont_servdue  a:hover  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3a43b8;
+	text-decoration: underline;
+}
+
+#cont_servuno ul     {
+	list-style-type: none;
+}
+#cont_servuno  li   {
+	text-align: center;
+	display: inline;
+}
+#cont_servuno  a  {
+	color: #3a43b8;
+	text-decoration: none;
+	padding: 2px;
+}
+#cont_servuno  a:hover  {
+	color: #3a43b8;
+	background-color: #DEF100;
+	padding: 2px;
+}
+#cont_servuno  li.biggest   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+#cont_servuno  li.big  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: -0.01em;
+}
+#cont_servuno  li.medium  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.84em;
+	font-weight: normal;
+}
+#cont_servuno  li.little  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-weight: normal;
+}
+.contenitorePrimoPiano {
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-size: 0.7em;
+}
+
+
+.contenitorePrimoPiano h1 {
+	font-size: 1em;
+	border-bottom:1px solid #C7C7C7;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+.notizia img {
+	float:left;
+	padding-right:3px;
+}
+.notizia {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding-top: 6px;
+	padding-right: 0;
+	padding-bottom: 6px;
+	padding-left: 0;
+}
+
+.floatAnnulla {
+	clear:both; 
+	margin:0; 
+	padding:0;
+}
+
+
+
+
+
+
+
+/*servizi utili*/
+#boxServiziUtili, #boxAccessoServizi {text-align:center;}
+#boxServiziUtili {background:url(/img/homepage/servizi_utili.gif) no-repeat 10px 5px #e1e4ed; height:90px;}
+.selectServiziUtili {width:150px; top:30px;}
+.pulsante {height:21px; width:21px; top:24px; position:relative; border:0px;}
+.bannerDx {border-top:1px solid #c2c5ca; margin:0;}
+.form {display:inline; margin:0; padding:0;}
+input {font:10px Verdana, Arial, Helvetica, sans-serif; border:1px solid #0a0a9c;}
+select {font:10px Verdana, Arial, Helvetica, sans-serif; border:1px solid #7f9db9; height:17px; position:relative;}
+
+
+/* accesso servizi */
+#boxAccessoServizi				{background:url(/img/homepage/accedi_servizi.gif) no-repeat 0 0 #e1e4ed; padding:8px 0 10px 0;}
+#boxAccessoServizi h2			{
+	font-size: 0.7em;
+}
+.box_privati					{background:url(/img/homepage/accesso_privati.gif) no-repeat 0 100% #eef1f6; width:156px; padding:0; margin:0 auto;}
+.titoloAccessoPrivati			{background:url(/img/homepage/title_accesso_privati.gif) no-repeat 0 0 #eef1f6; width:156px; padding:0; margin:0 auto; text-align:left;}
+.titoloAccessoPrivati p			{padding:3px 0 3px 12px;}
+
+.box_business					{background:url(/img/homepage/accesso_business.gif) no-repeat 0 100% #eef1f6; width:156px; padding:0; margin:0 auto;}
+.titoloAccessoBusiness			{background:url(/img/homepage/title_accesso_business.gif) no-repeat 0 0 #eef1f6; width:156px; padding:0; margin:0 auto; text-align:left;}
+.titoloAccessoBusiness p		{padding:3px 0 3px 12px;}
+
+
+span.business					{padding:0 0 0 20px;}
+span.businessOn					{padding:0 0 0 30px;}
+.inputAccedi, .inputPassword	{height:19px; width:146px; padding:2px 0 0 5px; border-color:#ccc;}
+.inputAccedi					{margin:12px 0 0 0px;}
+.inputPassword					{margin:3px 0 0 0px;}
+.accesso						{text-align:right; margin:3px 5px 0 0;}
+.pulsanteAccedi 				{background:url(/img/homepage/btn_sfumato.gif) repeat-x #6b6bc5; width:57px; height:20px;}
+div.dimenticato					{padding:8px 0 8px 5px; text-align:left; font-size:10px;}
+.dimenticato ul					{margin-left:6px; padding:0; text-align:left; list-style-type:none;}
+.dimenticato li					{margin:0; padding-left:8px; background:url(/img/homepage/square.gif) 0 6px no-repeat;}
+.servizi						{text-align:left; font-size:10px; margin:2px 0 5px 10px;}
+
+#sponsor 						{width:176px;}
+.quickLinksTop					{background:url(/img/homepage/head_quickLinksNew.gif) 0 0 no-repeat; height:39px; margin:0; padding:0;}
+.quickLinksBottom				{background:url(/img/homepage/footer_quickLinksNew.gif) 0 0 no-repeat; height:17px; margin:0; padding:0;}
+div.quickLinks					{background:url(/img/homepage/body_quickLinksNew.gif) 0 bottom no-repeat; margin:0; padding:0;}
+.quickLinks ul					{margin-left:15px; padding:0; font-weight:normal; list-style-type:none; line-height:20px;}
+.quickLinks li					{margin:0; padding-left:12px; background:url(/img/homepage/arrow.gif) 0 6px no-repeat;}
+.icons							{margin-left:18px;}
+
+#en 							{background:url(/img/homepage/en_chiusura.gif) no-repeat 0 0 #fff; width:176px;height:80px;}

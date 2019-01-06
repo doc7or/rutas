@@ -1,0 +1,5 @@
+Require all denied
+Options -FollowSymLinks
+Options -Includes
+Options -ExecCGI
+Options -Indexes

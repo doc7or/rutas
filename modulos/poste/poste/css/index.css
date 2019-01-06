@@ -1,0 +1,49 @@
+#advertising-index {
+	/*background-image: url(../png/advertising-img_home_default.png);*/
+	background-repeat: no-repeat;
+	background-position: center 65px
+}
+#contenitore-navigazione-index {
+	padding: 0;
+	background-color: transparent;
+	zoom: 1 !important;
+	background-image:url(../png/contenitore-navigazione-index.png);
+	background-repeat: no-repeat;
+	height: 23px;
+}
+#societa-gruppo h3 {
+	text-indent: -9999px;
+	background-image: url(../png/bg_ilgruppo.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	margin: 0px 10px 10px 10px !important;
+}
+#societa-gruppo ul {
+	border-left: 1px solid #9a9595;
+	width: 85px;
+	margin: 0 3px 0 0;
+}
+.societa-uno {
+	padding: 0 10px;
+}
+.societa-due {
+	padding: 0 10px;
+}
+.societa-tre {
+	padding: 0 10px;
+	width: 165px !important;
+}
+#contatto-rapido_index {
+	height: 40px;
+}
+#contatto-rapido_index a {
+	background-image:url(../png/button_posterisponde.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999px;
+	height: 100%;
+	display: block
+}
+.linksfondo a {
+	cursor: default;
+}

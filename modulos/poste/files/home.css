@@ -1,0 +1,375 @@
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #fff; FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #666
+}
+HTML {
+	BACKGROUND: #fff; FONT: 11px Verdana, Arial, Helvetica, sans-serif; COLOR: #666
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 760px; TEXT-ALIGN: left
+}
+A:link {
+	COLOR: #373abd; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #373abd; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #373abd; TEXT-DECORATION: underline
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.floatAnnulla {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#colonnaSinistraHome {
+	FLOAT: left; WIDTH: 584px
+}
+#colonnaDestraHome {
+	FLOAT: right; WIDTH: 176px
+}
+#contenitoreHeader {
+	WIDTH: 760px; HEIGHT: 37px
+}
+#header_box {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 37px; TEXT-ALIGN: left
+}
+#header_box IMG {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+#header_menu {
+	RIGHT: 0px; POSITION: relative; TOP: 10px; HEIGHT: 0px; TEXT-ALIGN: left
+}
+#header_menu A {
+	FONT-WEIGHT: bold
+}
+#header_menu SPAN {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; MARGIN: 0px 0px 0px 8%
+}
+#header_menu SPAN A {
+	FONT-WEIGHT: normal
+}
+#header_menu SPAN .login {
+	MARGIN: 0px 0px 0px 3px
+}
+#bloccoUfficioPostale {
+	WIDTH: 584px
+}
+#bloccoUfficioPostale IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#contenitoreTabella {
+	WIDTH: 580px
+}
+#tabellaSpot {
+	FONT-SIZE: 11px; BORDER-COLLAPSE: collapse
+}
+#tabellaSpot TD {
+	WIDTH: 33%
+}
+.news {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 10px Verdana, Arial, Helvetica, sans-serif; COLOR: #666; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.content {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.boxProdottiPostali {
+	PADDING-BOTTOM: 25px; COLOR: #656565
+}
+.boxProdottiBancoposta {
+	PADDING-BOTTOM: 25px; COLOR: #656565
+}
+.boxaltriProdotti {
+	PADDING-BOTTOM: 25px; COLOR: #656565
+}
+.boxBusiness {
+	PADDING-BOTTOM: 25px; COLOR: #656565
+}
+.boxProdottiPostali {
+	BORDER-TOP: #fff 1px solid; BACKGROUND: url(img/boxgialloSx.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxProdottiBancoposta {
+	BORDER-TOP: #fff 1px solid; BACKGROUND: url(img/boxgialloCx.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxaltriProdotti {
+	BORDER-TOP: #fff 1px solid; BACKGROUND: url(img/boxgialloDx.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxBusiness {
+	BORDER-TOP: #fff 1px solid; BACKGROUND: url(img/boxgialloBusiness.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxBusiness UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 4px 0px; PADDING-TOP: 0px
+}
+.boxBusiness LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.boxTitleProdottiPostali {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.boxTitleProdottiBancoposta {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.boxTitlealtriProdotti {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.boxTitleBusiness {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; BACKGROUND: #fbffbd; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.boxTitleProdottiPostali {
+	BORDER-RIGHT: #bee700 20px solid
+}
+.boxTitleProdottiBancoposta {
+	BORDER-RIGHT: #373abe 20px solid
+}
+.boxTitlealtriProdotti {
+	BORDER-RIGHT: #e8f404 20px solid
+}
+.boxTitleBusiness {
+	BORDER-RIGHT: #ff0000 20px solid
+}
+.boxTitleBusiness A:link {
+	COLOR: #ee0000; TEXT-DECORATION: none
+}
+.boxTitleBusiness A:visited {
+	COLOR: #ee0000; TEXT-DECORATION: none
+}
+.boxTitleBusiness A:active {
+	COLOR: #ee0000; TEXT-DECORATION: none
+}
+.boxTitleBusiness A:hover {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+.boxProdottiPostaliEn {
+	PADDING-BOTTOM: 10px; COLOR: #656565
+}
+.boxProdottiBancopostaEn {
+	PADDING-BOTTOM: 10px; COLOR: #656565
+}
+.boxProdottiPostaliEn {
+	BACKGROUND: url(img/boxgialloSxEn.jpg) #f8feb8 no-repeat 0px 100%
+}
+.boxProdottiBancopostaEn {
+	BACKGROUND: url(img/boxgialloDxEn.jpg) #f8feb8 no-repeat 0px 100%
+}
+TD.spaziatore {
+	PADDING-TOP: 10px
+}
+DIV.linkblu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+.linkblu UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+.linkblu LI {
+	PADDING-LEFT: 8px; BACKGROUND: url(img/square.gif) no-repeat 0px 6px; MARGIN: 0px
+}
+.contenitorePrimoPiano {
+	MARGIN: 0px 6px 0px 12px
+}
+.contenitorePrimoPiano H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #c7c7c7 1px solid
+}
+.notizia {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 10px; PADDING-TOP: 6px
+}
+.notizia IMG {
+	PADDING-RIGHT: 3px; FLOAT: left
+}
+.tempoLibero {
+	BORDER-RIGHT: #c7c7c7 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #c7c7c7 0px solid; PADDING-LEFT: 0px; MIN-HEIGHT: 62px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #c7c7c7 0px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #c7c7c7 0px solid; HEIGHT: 62px
+}
+.tempoLibero SPAN {
+	FONT-SIZE: 10px
+}
+.imgTempolibero {
+	FLOAT: right; MARGIN-LEFT: 1px; WIDTH: 63px
+}
+.spot {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 8px 0px 4px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.bannerDx {
+	BORDER-TOP: #c2c5ca 1px solid; MARGIN: 0px
+}
+.form {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	BORDER-RIGHT: #0a0a9c 1px solid; BORDER-TOP: #0a0a9c 1px solid; FONT: 10px Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #0a0a9c 1px solid; BORDER-BOTTOM: #0a0a9c 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT: 10px Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; POSITION: relative; HEIGHT: 17px
+}
+.destra {
+	TEXT-ALIGN: right
+}
+.selectAltriProdotti {
+	RIGHT: 10px; TOP: 10px
+}
+.selectProdottiBancoposta {
+	RIGHT: 10px; TOP: 10px
+}
+.selectProdottiPostali {
+	RIGHT: 10px; TOP: 10px
+}
+.selectProdottiPostali {
+	WIDTH: 175px
+}
+.selectAltriProdotti {
+	WIDTH: 165px
+}
+.selectProdottiBancoposta {
+	WIDTH: 165px
+}
+.pulsanteVai {
+	RIGHT: 10px; BACKGROUND: url(img/btn_sfumato.gif) #6b6bc5 repeat-x; WIDTH: 40px; POSITION: relative; TOP: 14px; HEIGHT: 20px
+}
+.pulsanteVai {
+	FONT-WEIGHT: bold; COLOR: #fff
+}
+.pulsanteAccedi {
+	FONT-WEIGHT: bold; COLOR: #fff
+}
+#boxServiziUtili {
+	TEXT-ALIGN: center
+}
+#boxAccessoServizi {
+	TEXT-ALIGN: center
+}
+#boxServiziUtili {
+	BACKGROUND: url(img/servizi_utili.gif) #e1e4ed no-repeat 10px 5px; HEIGHT: 90px
+}
+.selectServiziUtili {
+	WIDTH: 150px; TOP: 30px
+}
+.pulsante {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 21px; BORDER-BOTTOM: 0px; POSITION: relative; TOP: 24px; HEIGHT: 21px
+}
+#boxWhoweare {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; PADDING-TOP: 35px; TEXT-ALIGN: left
+}
+#boxWhoweare {
+	BACKGROUND: url(img/whoweare.gif) #e1e4ed no-repeat 0px 0px; HEIGHT: 185px
+}
+#boxWhoweare UL {
+	FONT-SIZE: 11px; MARGIN: 5px 0px
+}
+#boxWhoweare LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 4px; MARGIN: 0px; PADDING-TOP: 4px; LIST-STYLE-TYPE: none
+}
+#boxAccessoServizi {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/accedi_servizi.gif) #e1e4ed no-repeat 0px 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 8px
+}
+.box_privati {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/accesso_privati.gif) #eef1f6 no-repeat 0px 100%; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px
+}
+.titoloAccessoPrivati {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/title_accesso_privati.gif) #eef1f6 no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.titoloAccessoPrivati P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.box_business {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/accesso_business.gif) #eef1f6 no-repeat 0px 100%; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px
+}
+.titoloAccessoBusiness {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/title_accesso_business.gif) #eef1f6 no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.titoloAccessoBusiness P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+SPAN.business {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+SPAN.businessOn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.inputAccedi {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; PADDING-BOTTOM: 0px; WIDTH: 146px; BORDER-TOP-COLOR: #ccc; PADDING-TOP: 2px; HEIGHT: 19px; BORDER-RIGHT-COLOR: #ccc
+}
+.inputPassword {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; PADDING-BOTTOM: 0px; WIDTH: 146px; BORDER-TOP-COLOR: #ccc; PADDING-TOP: 2px; HEIGHT: 19px; BORDER-RIGHT-COLOR: #ccc
+}
+.inputAccedi {
+	MARGIN: 12px 0px 0px
+}
+.inputPassword {
+	MARGIN: 3px 0px 0px
+}
+.accesso {
+	MARGIN: 3px 5px 0px 0px; TEXT-ALIGN: right
+}
+.pulsanteAccedi {
+	BACKGROUND: url(img/btn_sfumato.gif) #6b6bc5 repeat-x; WIDTH: 57px; HEIGHT: 20px
+}
+DIV.dimenticato {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-SIZE: 10px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+.dimenticato UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 6px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+.dimenticato LI {
+	PADDING-LEFT: 8px; BACKGROUND: url(img/square.gif) no-repeat 0px 6px; MARGIN: 0px
+}
+.servizi {
+	FONT-SIZE: 10px; MARGIN: 2px 0px 5px 10px; TEXT-ALIGN: left
+}
+#sponsor {
+	WIDTH: 176px; BACKGROUND-COLOR: #fff
+}
+.quickLinksTop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/head_quickLinksNew.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 39px
+}
+.quickLinksBottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/footer_quickLinksNew.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 17px
+}
+DIV.quickLinks {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/body_quickLinksNew.gif) no-repeat 0px bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.quickLinks UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN-LEFT: 15px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.quickLinks LI {
+	PADDING-LEFT: 12px; BACKGROUND: url(img/arrow.gif) no-repeat 0px 6px; MARGIN: 0px
+}
+.icons {
+	MARGIN-LEFT: 18px
+}
+#en {
+	BACKGROUND: url(img/en_chiusura.gif) #fff no-repeat 0px 0px; WIDTH: 176px; HEIGHT: 80px
+}
+.subSponsor {
+	PADDING-TOP: 0px
+}
+.subSponsor SPAN {
+	PADDING-RIGHT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; COLOR: #666
+}
+.subSponsor IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 0px; MARGIN-RIGHT: 0px; BORDER-BOTTOM: 0px
+}
+.footerHome {
+	PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 5px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; HEIGHT: 20px
+}
+.footerHome A {
+	FONT-WEIGHT: bold
+}
+.footerLinks {
+	PADDING-RIGHT: 0px; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 25px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; HEIGHT: 20px
+}
+.footerLinks A {
+	FONT-WEIGHT: bold
+}
+.floatSx {
+	FLOAT: left
+}
+.floatDx {
+	FLOAT: right
+}
+.footerDx {
+	FLOAT: right; LINE-HEIGHT: 15px; TEXT-ALIGN: right
+}
+.noborder {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}

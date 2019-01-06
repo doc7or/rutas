@@ -1,0 +1,69 @@
+DIV.news {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 584px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+DIV.basicTickerTape {
+	OVERFLOW: hidden; POSITION: relative
+}
+DIV.basicTickerTape UL {
+	LEFT: 0px; MARGIN: 0px; POSITION: absolute; TOP: 0px
+}
+DIV.basicTickerTape UL LI {
+	BORDER-RIGHT: #000 0px solid; BORDER-TOP: #000 0px solid; MARGIN: 10px 5px 0px; BORDER-LEFT: #000 0px solid; WIDTH: 534px; BORDER-BOTTOM: #000 0px solid; POSITION: relative; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+DIV.horizontalTickerTape {
+	FONT-SIZE: 9px; WIDTH: 534px; FONT-FAMILY: Verdana, sans-serif; HEIGHT: 16px; BACKGROUND-COLOR: #fff
+}
+DIV.horizontalTickerTape UL {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 20000px; PADDING-TOP: 1px; LIST-STYLE-TYPE: none
+}
+DIV.horizontalTickerTape UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 534px; PADDING-TOP: 0px
+}
+DIV.horizontalTickerTape UL LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.horizontalTickerTape UL LI SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.horizontalTickerTape P.tickerLink {
+	DISPLAY: block
+}
+DIV.horizontalTickerTape SPAN.tickerLink {
+	DISPLAY: block
+}
+DIV.horizontalTickerTape UL LI.emptyItem {
+	VERTICAL-ALIGN: middle; WIDTH: 534px; TEXT-ALIGN: left
+}
+.boxNotiziario {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; MARGIN: 4px; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid; BACKGROUND-COLOR: #eee
+}
+.boxNotizie {
+	BORDER-RIGHT: #dcdcdc 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dcdcdc 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; BORDER-LEFT: #dcdcdc 0px solid; WIDTH: 98%; PADDING-TOP: 10px; BORDER-BOTTOM: #dcdcdc 1px solid; TEXT-ALIGN: left
+}
+.boxNotizie SPAN {
+	FONT: 11px Verdana, Arial, Helvetica, sans-serif; MARGIN-LEFT: 10px; COLOR: #373abe
+}
+.contenutoNotizia {
+	TEXT-ALIGN: justify
+}
+.boxNotizie A {
+	TEXT-DECORATION: none
+}
+.boxNotizie A:visited {
+	TEXT-DECORATION: none
+}
+.boxNotizie A:active {
+	TEXT-DECORATION: none
+}
+.boxNotizie A:hover {
+	TEXT-DECORATION: underline
+}
+.headerZone {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; FONT: bold 12px Verdana, Arial, Helvetica, sans-serif; COLOR: #373abe; PADDING-TOP: 4px
+}
+.torna {
+	MARGIN: 6px 0px 0px 12px
+}
+.chiudiBox {
+	MARGIN: 6px 12px 4px 0px; TEXT-ALIGN: right
+}

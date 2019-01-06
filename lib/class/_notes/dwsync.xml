@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="cyberlux_clientes.class.php" server="C:/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128708126662186970" remote="128708126660000000" />
+<file name="control_salida.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128769304093659547" remote="128769304090000000" />
+<file name="control_salida_detalle.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128768499470915666" remote="128768499470000000" />
+<file name="control_salida_status.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128723604800000000" remote="128723604800000000" />
+<file name="cyberlux_clientes.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128708503160000000" remote="128708503160000000" />
+<file name="cyberlux_factura.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128735685631406250" remote="128735685630000000" />
+<file name="despacho.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128728113200000000" remote="128728113200000000" />
+<file name="empresa.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128763322084375000" remote="128763322080000000" />
+<file name="escolta.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128732189780000000" remote="128732189780000000" />
+<file name="estado.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128706217360000000" remote="128706217360000000" />
+<file name="factura_temp_uso.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128734109071562500" remote="128734109070000000" />
+<file name="general.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128728600280000000" remote="128728600280000000" />
+<file name="iva.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128772133630937500" remote="128772133630000000" />
+<file name="ruta_base.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128723711840000000" remote="128723711840000000" />
+<file name="ruta_base_escala.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128706217360000000" remote="128706217360000000" />
+<file name="sucursal.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128729569480000000" remote="128729569480000000" />
+<file name="tabulador_costo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128733896129843750" remote="128733896120000000" />
+<file name="transportista.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128756548312398898" remote="128756548310000000" />
+<file name="usuario.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128728089400000000" remote="128728089400000000" />
+<file name="usuario_tipo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128706217360000000" remote="128706217360000000" />
+<file name="vehiculo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128756423714763982" remote="128756423710000000" />
+<file name="vehiculo_tipo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128733083811250000" remote="128733083810000000" />
+<file name="zona.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128706217360000000" remote="128706217360000000" />
+<file name="log.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128731424140000000" remote="128731424140000000" />
+<file name="log_tipo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128731424020000000" remote="128731424020000000" />
+<file name="control_salida.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128769339087715197" remote="128769339080000000" />
+<file name="control_salida_detalle.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128769436458074286" remote="128769436450000000" />
+<file name="cod_area_telefono.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128748081960000000" remote="128748081960000000" />
+<file name="control_post.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128768228920000000" remote="128768228920000000" />
+<file name="control_salida_detalle_post.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128769478045022400" remote="128769478040000000" />
+<file name="control_salida_status.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128723604800000000" remote="128723604800000000" />
+<file name="cyberlux_clientes.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128708503160000000" remote="128708503160000000" />
+<file name="cyberlux_factura.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128735685640000000" remote="128735685640000000" />
+<file name="cyberlux_sub_alma.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128736691880000000" remote="128736691880000000" />
+<file name="cyberlux_traslado.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128736317320000000" remote="128736317320000000" />
+<file name="cyberlux_tras_alm.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128736663780000000" remote="128736663780000000" />
+<file name="despacho.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128728113200000000" remote="128728113200000000" />
+<file name="empresa.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128763322100000000" remote="128763322100000000" />
+<file name="escolta.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128750592300000000" remote="128750592300000000" />
+<file name="estado.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128751181100000000" remote="128751181100000000" />
+<file name="factura.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128708897680000000" remote="128708897680000000" />
+<file name="factura_temp_uso.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128736695980000000" remote="128736695980000000" />
+<file name="general.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128752283460000000" remote="128752283460000000" />
+<file name="iva.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128723709900000000" remote="128723709900000000" />
+<file name="log.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128756594880000000" remote="128756594880000000" />
+<file name="log_tipo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128731424020000000" remote="128731424020000000" />
+<file name="ruta_base.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128763855860000000" remote="128763855860000000" />
+<file name="ruta_base_escala.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128706217360000000" remote="128706217360000000" />
+<file name="sucursal.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128763839040000000" remote="128763839040000000" />
+<file name="tabulador_costo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128763731700000000" remote="128763731700000000" />
+<file name="transportista.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128756548320000000" remote="128756548320000000" />
+<file name="usuario.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128753192240000000" remote="128753192240000000" />
+<file name="usuario_tipo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128752342540000000" remote="128752342540000000" />
+<file name="vehiculo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128768471838782649" remote="128768471830000000" />
+<file name="vehiculo_tipo.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128754645640000000" remote="128754645640000000" />
+<file name="zona.class.php" server="//10.10.1.8/c/Program Files/Apache Software Foundation/Apache2.2/htdocs/transporte_desarrollo/" local="128754674280000000" remote="128754674280000000" />
+<file name="control_salida.class.php" server="C:/Archivos de programa/Apache Software Foundation/Apache2.2/htdocs/transporte/" local="128811614098281250" remote="128811614090000000" />
+</dwsync>

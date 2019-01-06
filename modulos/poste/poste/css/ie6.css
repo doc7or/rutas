@@ -1,0 +1,53 @@
+/*
+	Foglio di stile per Internet Explorer
+*/
+
+
+#contenitore-navigazione-index, #contenitore-navigazione-index_privati, #contenitore-navigazione-index_pmi, #contenitore-navigazione-index_pa{
+	background-position: left bottom;
+	width: 785px;
+}
+
+#box-ricerca-header .search{
+	padding-right: 4px;
+	padding-left: 5px;
+	width: 151px;
+}
+
+ul.lista-navigazione-superiore li a {
+    text-transform: uppercase;
+}
+
+#contenitore-corpo{
+	padding-bottom: 12px;
+}
+#link-rapidi ul ,#accesso-rapido-pmi ul , #accesso-rapido-privati ul , #accesso-rapido-pa ul {
+    margin: 0 2px;
+}
+#societa-gruppo ul{
+    margin: 0 2px 0 0;
+}
+.societa-tre{
+    padding-right: 0px!important;
+}
+
+#link-rapidi{
+  width: 355px;
+}
+.bottomNuvola{
+  width: 268px;
+}
+
+#slider a.nivo-imageLink{
+	display: block !important;
+}
+
+#banner .nivo-slice{
+  height: 180px;
+  display: block;
+}
+#servizi-prodotti ul li {
+  height: 1%;
+}
+
+ 

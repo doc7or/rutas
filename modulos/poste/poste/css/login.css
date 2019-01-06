@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../png/sfondo-iframe.png);
+	background-position: 0px 0px;
+}
+#loginbox {
+	width:135px;
+	color:#005CAB;
+}
+#loginbox a {
+	font-family: Arial;
+	font-size: 9px !important;
+	text-transform: none !important;
+	color: #005CAB;
+	text-decoration: none;
+	padding: 0px 6px 0px 10px;
+}
+#loginbox input {
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 1px;
+}
+#loginbox form {
+	margin: 0 0 5px 5px;
+}
+#txt {
+	width: 130px;
+	height: 22px;
+	display: block;
+	margin: 0 0 3px 0;
+	padding: 1px 3px;
+	color: #666666;
+	border: 0;
+	background-image: url(../png/login_sfondo-user.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#pass {
+	width: 74px;
+	height: 22px;
+	display: block;
+	padding: 1px 3px;
+	color: #666666;
+	border: 0;
+	background-image: url(../png/login_sfondo-psw.png);
+	background-repeat: no-repeat;
+}
+.lista-navigazione-login {
+	font-size: 9px;
+	text-align: center !important;
+	margin: 6px 0 0 0;
+}
+.bottone {
+	/*background-color:#1344a3;
+	padding: 2px 5px;*/
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size: 9px !important;
+	background-image: url(../png/login_sfondo-accedi.png);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 22px;
+	padding:0 0 5px 0;
+	text-align: center;
+	float: left;
+}
+.lf {
+	float: left !important;
+}
+.rf {
+	float: right !important;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+    margin:0;
+    padding:0;
+}

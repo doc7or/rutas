@@ -1,0 +1,480 @@
+/*
+- Style CSS
+- GED
+- Poste Italiane
+*/
+
+body{
+  	background-image: url(../jpg/sfondoHeader.jpg);
+	background-repeat: repeat-x;
+    background-position: 20px 0 ;
+	}
+
+/***********************************************
+Elementi sovrascritti di GateIn
+************************************************/
+
+/* nascondi menu portal*/
+.UIToolbarContainer  {
+  position: absolute;
+}
+/* override css dei componenti*/
+.UIPageBody .VIEW-PAGEBODY .UIPage {
+	padding: 0px;
+}
+/* larghezza portale*/
+.UIWorkingWorkspace {
+  width: 960px;
+
+}
+
+.UIWorkingWorkspace .UIPageBody{
+ border: none!important;
+}
+
+
+/***********************************************
+CLASSI
+************************************************/
+
+/* Padding globale */
+.genericPadding {
+	padding: 0 55px;
+	line-height: 16px;
+}
+/*Padding delle sole aree testuali: Info + AreaMain (e sotto aree eventuali: left e right) + InfoBottom + Footer*/
+.box {
+	padding: 15px 0;
+}
+/*Clear dei float*/
+.cleared {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.nascondi {
+	display:none;
+}
+
+/*classe comune alle sole aree testi di info Top e info Bottom */
+.infocommon a {
+	font-weight: bold;
+}
+/*classe comune alle sole aree testi interne ad Area Main */
+.internalcommon {
+}
+/* flottaggi */
+
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+
+.fn {
+	float:none !important;
+}
+/***********************************************
+ID - SEZIONE PARTIZIONI GLOBALI: Header + Contenitore
+************************************************/
+
+/* Area del top header grigio di default di Poste */
+#wrapper-header {
+	height: 62px;
+	width: 100%;
+	background-image: url(../jpg/sfondoHeader.jpg);
+	background-repeat: repeat-x;
+}
+
+/* Area tra top header e contenitore */
+#welcome {
+	height: 30px;
+	padding:10px;
+	width: 914px;
+	margin: 0px auto;
+}
+
+/* Area del contenitore: contenitore di tutti i div (gedtablet + footer) escluso l'header */
+#contenitore {
+	width: 960px;
+	margin: -6px auto 0px auto;
+	text-align: left;
+}
+
+/***********************************************
+SEZIONE: Header 
+************************************************/
+#header {
+	width: 960px;
+	margin: 0 auto;
+	width: 910px;
+}
+
+.subNav {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 30px 0 0 0;
+	width: 220px;
+	text-align: right;
+}
+
+.login {
+	font-size: 10px;
+	background-position: center bottom;
+	background-image: url(../gif/myposteglobal2.gif);
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 220px;
+	text-indent: -10px;
+}
+
+.login a {
+	padding: 0 3px
+}
+
+.logo {
+	margin: 10px 0;
+}
+
+
+/***********************************************
+SEZIONE: Welcome
+************************************************/
+
+#welcome .testo-welcome {
+	padding:10px 0 0 2px;
+}
+
+a.linkProfilo:hover {
+	/*text-decoration:underline;*/
+}
+
+.nomeutente{
+	text-transform: capitalize;
+}
+
+/***********************************************
+ID - SEZIONE AREE INTERNE AL CONTENITORE
+************************************************/
+
+/* Contenitore del menu di navigazione e delle due aree grafiche di risparmio laterali */
+#tabs {
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Contenitore dell'area superiore di Informazioni interna al GED-Tablet */
+#areaInfoTop {
+	background-image: url(../jpg/sfondoAreaCenter.jpg);
+	background-repeat: repeat-y;
+	text-align: left;
+}
+
+/* Contenitore dell'area centrale interna al GED-Tablet */
+#areaCenter {
+	background-image: url(../jpg/sfondoAreaCenter.jpg);
+	background-repeat: repeat-y;
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+	
+}
+
+/* Contenitore dell'area del footer esterna al GED-Tablet ma esterna al contenitore*/
+#footer {
+	text-align: right;
+	font-size: 10px;
+	margin: 0 auto;
+	width: 960px;
+	height:140px;
+	background-image:url(../jpg/poste-italiane-bordo.jpg);
+	background-repeat: no-repeat;
+	background-position:left top;
+	padding-top: 30px;
+}
+/***********************************************
+ID - SEZIONE CONTENUTI AREA TOP
+************************************************/
+
+/* Area del Menu di Navigazione */
+#navMenu {
+	margin: 0;
+	float: left;
+	height: 25px;
+	width: 960px;
+	/*display: inline;*/
+	background-image: url(../jpg/top-linea.jpg);
+	background-repeat: no-repeat;
+	background-position: 371px bottom;
+	padding-bottom: 6px;
+}
+.notabs #navMenu {
+	background-image: url(../jpg/top-linea-default.jpg) !important;
+	background-position: 24px 19px !important;
+}
+/***********************************************
+ID - SEZIONE CONTENUTI AREA CENTRALE MONOCOLONNA
+************************************************/
+
+/* Area interna monocolonna = 850 px*/
+#areaMain {
+	margin: auto;
+	height: auto !important;
+	height: 300px;
+	min-height: 300px;
+}
+/* Area testuale interna ad Area Main */
+#innerMain {
+	padding: 10px;
+}
+/***********************************************
+ID - SEZIONE CONTENUTI AREA CENTRALE A DUE COLONNE
+************************************************/
+
+/* Area interna a due colonne: left = 230px + right = 620px */
+#areaMainDue {
+	margin: auto;
+}
+/* aree interne Left e Right di areaMainDue */
+#areaMainLeft {
+	width: 230px;
+}
+#areaMainRight {
+	width: 620px;
+}
+#areaMainRight, #areaMainLeft {
+	height: auto !important;
+	height: 340px;
+	min-height: 340px;
+	/*background-color: #ededed;*/
+	float: left;
+}
+/* Aree testuali interne di areaMainDue */
+#innerLeft {
+	padding: 10px;
+}
+#innerRight {
+	padding: 10px;
+}
+/* hack per IE6 */
+* html #innerRight {
+	padding-right:0px;
+}
+
+
+/***********************************************
+Classi comuni DIV Link Top  - subdiv di InfoTop (2/3)
+************************************************/
+
+#comunicazioni ul li {
+	display: inline;
+}
+.linkComunicazioniPoste a:link {
+	color:#0058A5;
+	font-weight:bold;
+}
+.linkComunicazioniPoste a:hover {
+	text-decoration:underline;
+}
+.linkNumeroPoste {
+	font-size:9px;
+	text-decoration: none;
+	font-weight:normal;
+}
+.iconaPuntina {
+	background-image:url(../png/ico_pin_blu.png);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	background-position:left;
+}
+.linkComunicazioniAziendali a:link {
+	color:#0058A5;
+	font-weight:bold
+}
+.linkComunicazioniAziendali a:hover {
+	text-decoration:underline;
+}
+.linkNumeroAziendali {
+	font-size:9px;
+	text-decoration: none;
+	font-weight:normal;
+}
+
+/***********************************************
+Classi comuni DIV CERCA - subdiv di InfoTop (3a/3)
+************************************************/
+
+.cercaBoxInput {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#FFDC56;
+	color:#666666;
+	width:144px;
+}
+.cercaBoxButton {
+	padding-left:10px;
+}
+.cercaBoxOpzioni {
+	font-size:10px;
+	padding-left: 10px;
+}
+.cercaBoxOpzioni a:link {
+	text-decoration:none;
+}
+.cercaBoxOpzioni a:hover {
+	text-decoration:underline;
+}
+/***********************************************
+Classi comuni DIV VISUALIZZA - subdiv di InfoTop (3b/3)
+************************************************/
+.visualizzaBoxConto {
+	padding-top:20px;
+}
+.visualizzaBoxPostePay {
+	padding-top:20px;
+}
+.visualizzaBoxTesto {
+	width:240px;
+}
+.visualizzaBoxInput {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background-color:#FFDC56;
+	color:#666666;
+	width:220px;
+}
+.visualizzaBox {
+	padding-left:10px;
+}
+/***********************************************
+Classi comuni PAGINAZIONE BOTTOM
+************************************************/
+
+.paginazione ul, li {
+	list-style: none
+}
+.paginazione li {
+	display: inline;
+	margin: 0 5px;
+}
+.activeLink {
+	font-weight:bold;
+}
+.paginazione a:hover {
+	text-decoration:underline;
+}
+
+/***********************************************
+Classi comuni NAVIGAZIONE BOTTOM
+************************************************/
+.bottomNav {
+	text-align: center;
+	margin: 10px 0;
+}
+
+/***********************************************
+Classi Portlet doppie
+************************************************/
+
+.portlet_sx {
+	height: auto !important;
+    margin-left: 55px;
+	margin-top: 20px;
+    min-height: 400px;
+    position: absolute;
+    text-align: left;
+    width: 150px;
+	left: 0;
+}
+
+.portlet_dx {
+    height: 100%;
+    margin-left: 156px;
+    padding: 10px;
+    width: 663px;
+}
+
+
+/******* IE6 *******/
+
+* html .portlet_sx {
+	left: 0px;
+}
+
+* html .portlet_dx {
+	width: 650px
+}
+
+* html #navMenu{
+	/*margin-bottom: -2px;*/
+	padding-bottom: 6px;
+	/*margin-bottom: -6px;*/
+	background-position: 371px 25px;
+	z-index: 2;
+	margin-left:0;
+}
+
+* html ul#menu_nav_orizzontale{
+	margin-left: -1px;
+}
+
+* html .internalcommon{
+	height: 1%;
+}
+/******* IE7 *******/
+
+*:first-child+html .portlet_dx {
+width: 663px;
+padding-left: 156px;
+margin-left: 0;
+}
+
+*:first-child+html .portlet_dx  .sfondoGrigio{
+width: 643px;
+}
+
+*:first-child+html #navMenu{
+	padding-bottom: 6px;
+	background-position: 371px 23px;
+	/*z-index: 2;*/
+	margin-top: 1px;
+	margin-left:0;
+}
+
+*:first-child+html ul#menu_nav_orizzontale{
+	margin-left: -1px !important;
+}
+
+/***********************************************
+Definizione liste per parti informative (iw e portal)
+************************************************/
+
+.area_informativa ul {
+	list-style-type: none;
+	margin: 5px 10px;
+	font-size: 1em;
+	overflow: hidden;
+}
+.area_informativa ul li {
+	margin: 0px;
+	padding: 4px 0px 4px 15px;
+	list-style-type: none;
+	background-image: url(../gif/arrowgrigio.gif);
+	overflow: hidden;
+    list-style-position: outside;
+    background-repeat:no-repeat;
+	background-position:top left;
+    line-height: 12px !important;
+}
+.area_informativa img {
+	border: 0px;
+	padding: 4px;
+}
+.area_informativa a{
+  font-weight: normal !important;
+}

@@ -1,0 +1,130 @@
+div.news {
+	width: 584px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+/* The basicTickerTape styles are required */
+div.basicTickerTape {
+	position: relative;
+	overflow: hidden;
+}
+
+div.basicTickerTape ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+
+div.basicTickerTape ul li {
+	margin: 10px 5px 0 5px;
+	position: relative;
+	border: 0px solid #000;
+	background-color: #fff;
+	text-align: left;
+	width: 534px;
+}
+
+/* HORIZONTAL */
+div.horizontalTickerTape {
+	font-family: Verdana, sans-serif;
+	font-size: 9px;
+	width: 534px;
+	background-color: #fff;
+	height: 16px;
+}
+
+div.horizontalTickerTape ul {
+	margin: 0px;
+	padding: 1px;
+	list-style: none;
+	width: 20000px;
+}
+
+div.horizontalTickerTape ul li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	width: 534px;
+}
+
+div.horizontalTickerTape ul li p {
+	margin: 0;
+	padding: 0;
+}
+
+div.horizontalTickerTape ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+div.horizontalTickerTape p.tickerLink {
+	display: block;
+}
+
+div.horizontalTickerTape span.tickerLink {
+	display: block;
+}
+
+/* empty item */
+div.horizontalTickerTape ul li.emptyItem {
+	width: 534px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+/* breaking news per popup */
+.boxNotiziario {
+	margin: 4px;
+	border: 1px solid #ddd;
+	background-color: #eee;
+}
+
+.boxNotizie {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #dcdcdc;
+	width: 98%;
+	text-align: left;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.boxNotizie span {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #373abe;
+	margin-left: 10px;
+}
+
+.contenutoNotizia
+{
+	text-align: justify;
+}
+
+.boxNotizie a,.boxNotizie a:visited,.boxNotizie a:active {
+	text-decoration: none;
+}
+
+.boxNotizie a:hover {
+	text-decoration: underline;
+}
+
+.headerZone {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #373abe;
+	padding: 4px 0 4px 6px;
+}
+
+.torna {
+	margin: 6px 0 0 12px;
+}
+
+.chiudiBox {
+	margin: 6px 12px 4px 0;
+	text-align: right;
+}

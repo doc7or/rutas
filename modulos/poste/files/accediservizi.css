@@ -1,0 +1,45 @@
+.titoloAccessoPrivati_interna {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/title_box_accedi_privati.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 275px; PADDING-TOP: 0px
+}
+.titoloAccessoBusiness_interna {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/title_box_accedi_business.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 275px; PADDING-TOP: 0px
+}
+.titoloAccessoPrivati_interna P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.titoloAccessoBusiness_interna P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.box_interna {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/box_accedi.gif) #eef1f6 no-repeat 0px 100%; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 275px; PADDING-TOP: 0px; HEIGHT: 215px; TEXT-ALIGN: left
+}
+SPAN.business {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 22px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.inputAccedi {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 146px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 19px
+}
+.inputPassword {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 146px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 19px
+}
+.inputAccedi {
+	MARGIN: 12px 0px 0px
+}
+.inputPassword {
+	MARGIN: 3px 0px 0px
+}
+.accesso {
+	MARGIN: 3px 5px 0px 165px; TEXT-ALIGN: left
+}
+.pulsanteAccedi {
+	BORDER-RIGHT: #080897 1px solid; BORDER-TOP: #080897 1px solid; FONT-WEIGHT: bold; BACKGROUND: url(img/btn_sfumato.gif) #6b6bc5 repeat-x; BORDER-LEFT: #080897 1px solid; WIDTH: 57px; COLOR: #fff; BORDER-BOTTOM: #080897 1px solid; HEIGHT: 20px
+}
+DIV.dimenticato {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FONT-SIZE: 10px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+.dimenticato UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 6px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+.dimenticato LI {
+	PADDING-LEFT: 8px; BACKGROUND: url(img/square.gif) no-repeat 0px 6px; MARGIN: 0px
+}

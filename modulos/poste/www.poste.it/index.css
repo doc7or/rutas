@@ -1,0 +1,71 @@
+/* ::::: https://www.poste.it/standard.css ::::: */
+
+* { margin: 0pt; padding: 0pt; }
+body, html { background: none repeat scroll 0% 0% rgb(255, 255, 255); font: 11px Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-align: center; }
+body { background: url('bkgr.gif') repeat-x scroll 0% 0% transparent; }
+ul.lista { margin: 5px 0pt; font-size: 11px; }
+ul.lista li { margin: 0pt 0pt 0pt 0px; padding: 4px 0px 4px 15px; list-style-type: none; background: url('arrowgrigio.gif') no-repeat scroll 0pt 1px transparent; }
+a, a:link, a:visited { color: rgb(0, 92, 171); text-decoration: none; }
+a:hover { color: rgb(0, 92, 171); text-decoration: underline; }
+.business { color: rgb(255, 0, 0) ! important; font-weight: normal ! important; }
+.business a { color: rgb(255, 0, 0) ! important; font-weight: normal ! important; }
+img { border: 0px none; }
+table { font-size: 11px; }
+#page { width: 760px; margin: 0pt auto; text-align: left; }
+#contenitoreHeader { width: 760px; height: 62px; background: url('bkgrheader.gif') no-repeat scroll 0% 0% transparent; }
+#header_login { width: 100%; text-align: right; font-size: 10px; }
+.header_login_global { background: url('myposteglobal.gif') no-repeat scroll right bottom transparent; }
+#header_login div { padding: 2px 16px 3px 0px; }
+#header_navigazione { list-style-type: none; padding: 0px; margin: 0px; height: 28px; }
+#header_navigazione li { display: inline; padding: 0px; margin-right: 5px; }
+#header_subnavigazione { width: 100%; padding: 0px; margin: 0px; text-align: right; font-family: Arial,Helvetica,sans-serif; color: rgb(0, 92, 171); }
+select, textarea, input { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 10px; }
+form { display: inline; }
+.win585u { width: 585px; text-align: left; }
+.win585u .wincontent { padding: 10px 0pt 0pt 6px; }
+.creaPagina { width: 570px; margin-bottom: 10px; }
+.win585u h1 { font-size: 12px; line-height: 20px; color: rgb(55, 58, 189); text-decoration: none; }
+.win585u .abstract { font-size: 11px; font-weight: normal; padding-bottom: 10px; }
+.bloccoA { vertical-align: top; }
+.bloccoA2 { vertical-align: top; padding-left: 10px; }
+div.tpl_testata div h1 a:hover { text-decoration: none; }
+div.tpl_testo { font-size: 11px; margin: 5px 0pt; padding: 0pt 5px 0pt 0pt; }
+div.tpl_testata { text-align: left; margin: 5px 0px 10px; }
+div.footer { margin: 15px 0pt; height: 30px; background: url('bkgrfooter.jpg') no-repeat scroll 0% 0% transparent; padding: 4px 0px 0px 10px; font-size: 10px; }
+div.footer a { font-weight: normal; }
+.floatAnnulla { clear: both; }
+/* ::::: https://www.poste.it/accediservizi-restyle.css ::::: */
+
+.titoloAccessoPrivati_interna, .titoloAccessoBusiness_interna { width: 275px; padding: 0pt; margin: 0pt auto; }
+.titoloAccessoPrivati_interna p, .titoloAccessoBusiness_interna p { padding: 3px 0pt 3px 15px; }
+.box_interna { width: 275px; height: 215px; padding: 0pt; margin: 0pt auto; text-align: left; }
+span.business { padding: 0pt 0pt 0pt 22px; }
+.inputAccedi, .inputPassword { height: 19px; width: 146px; padding: 2px 0pt 0pt 5px; border: 1px solid rgb(204, 204, 204); }
+.inputAccedi { margin: 12px 0pt 0pt 0px; }
+.inputPassword { margin: 3px 0pt 0pt 0px; }
+#contenitoreHeader { width: 940px; height: 60px; background: url('bkgrheader.gif') no-repeat scroll 0% 0% transparent; }
+#header_login { width: 100%; text-align: right; font-size: 10px; }
+#header_login .opzioni { width: 780px; text-align: right; font-size: 10px; color: rgb(0, 92, 171); }
+.header_login_global { background: url('myposteglobal.gif') no-repeat scroll right bottom transparent; }
+#header_login div { padding: 0px 16px 3px 0px; }
+#header_navigazione { list-style-type: none; padding: 0px; margin: 0px; height: 28px; }
+#header_navigazione li { display: inline; padding: 0px; margin-right: 5px; }
+#header_subnavigazione { width: 100%; padding: 0px; margin: 0px; text-align: right; font-family: Arial,Helvetica,sans-serif; color: rgb(0, 92, 171); }
+* { margin: 0pt; padding: 0pt; }
+.floatLeft { float: left; }
+div.creaPagina, .abstract { width: 940px ! important; }
+div.titoloAccessoPrivati_interna { text-align: right; background-image: none; }
+div.titoloAccessoPrivati_interna p {  }
+div.titoloAccessoPrivati_interna p strong { color: rgb(0, 92, 171); background-color: inherit; }
+span.business { padding-left: 5px; margin-left: 5px; border-left: 1px solid rgb(0, 92, 171); }
+div.titoloAccessoPrivati_interna p a { color: rgb(0, 92, 171) ! important; background-color: inherit; }
+div.titoloAccessoPrivati_interna p {  }
+.box_interna div.ulLoginContainer a { color: rgb(0, 92, 171); }
+.box_interna div.ulLoginContainer ul { list-style: none outside none; margin-left: 0pt; line-height: 25px; padding-left: 10px; background-image: url('sfondo_login_bottom.jpg'); background-position: left bottom; background-repeat: no-repeat; padding-bottom: 50px; }
+.box_interna input.inputAccedi { width: 250px; border: 1px solid rgb(0, 0, 0); }
+.box_interna input.inputPassword { border: 1px solid rgb(0, 0, 0); width: 180px; }
+.box_interna { background-image: url('sfondo_login_top.jpg'); background-position: left top; background-repeat: no-repeat; }
+.box_interna form .bottone { background-color: rgb(0, 92, 171); border: 0pt solid rgb(0, 92, 171); color: rgb(255, 255, 255); cursor: default; font-size: 9px; font-weight: bold; height: 16px; margin-top: 3px; }
+td.bloccoA2 { padding-left: 20px; }
+div.footer { width: 940px; }
+#page { margin: 0pt auto; text-align: left; width: 940px; }

@@ -1,0 +1,91 @@
+/* 
+- Navigation Menu CSS
+- GED
+- Poste Italiane
+*/
+
+/* pulitura outline */
+a{outline:none}
+
+/* ID del Menu */
+#menu_nav_orizzontale {
+	list-style: none;
+	overflow: hidden;
+	width: 912px;
+	margin: 0px 0 0 23px;
+	padding: 1px 0 0 0;
+}
+/* ID dei li del Menu */
+#menu_nav_orizzontale li {
+	float: left;
+	width: 116px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Pulsante a triplo CSS state in stato --> LINK (0) */
+#menu_nav_orizzontale a {
+	display: block;
+/*	color: #437E7E;*/
+	color: #005cab;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:10px;
+	height: 1%; /* IE6 hack */
+	background-position: 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:26px;
+	height:26px;
+}
+
+/* Pulsante a triplo CSS state in stato --> ACTIVE (-92) */
+#menu_nav_orizzontale a:active {
+	color: #666666;
+	background-position: 0 -26px;
+}
+
+/* Pulsante a triplo CSS state in stato --> HOVER (-46) */
+#menu_nav_orizzontale a:hover {
+	color: #005CAB;
+	background-position: 0 -26px;
+}
+
+
+/* classe grafica del pulsante centrale */
+.tab_button {
+	background-image: url(../jpg/top-button.jpg);
+	background-repeat: no-repeat;
+}
+
+
+/* hack per il primo pulsante */
+#menu_nav_orizzontale a.primo {
+	margin-left: 0;
+}
+
+/* classe per il pulsante della pagina corrente (bianco), valido per tutte le posizioni: sx, centro, dx */
+#menu_nav_orizzontale a.buttonActive {
+	background-position: 0 -52px;
+	color: #797979;
+}
+#menu_nav_orizzontale a.buttonActive:hover {
+background-position: 0 -52px !important;
+}
+
+/* classi per il pulsante in stato di OFF valido per tutte le posizioni: sx, centro, dx */
+#menu_nav_orizzontale a.buttonOff {
+	color: #fcbb0d !important;
+	cursor:default;
+}
+
+#menu_nav_orizzontale a.buttonOff:active{	
+	background-position: 0 0;
+}
+
+#menu_nav_orizzontale a.buttonOff:hover{	
+	background-position: 0 0;
+}
+
+

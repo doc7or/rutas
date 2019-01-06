@@ -1,0 +1,69 @@
+
+.modifica_anagrafica .portlet_dx {
+	height: 1350px;
+}
+
+.domande_segrete .portlet_dx {
+	height: 350px;
+}
+
+.anagrafica_success .portlet_dx {
+	height: 300px;
+}
+
+.domande_segrete_success .portlet_dx  {
+	height: 300px;
+}
+
+.inlinea {
+	display:inline;
+	clear: right !important;
+}
+
+/*********************** MENU MODIFICA DATI *********************************/
+
+#menu_modifica_dati{
+}
+#menu_modifica_dati .selezionato {
+	font-weight: bold;
+	background-color: #f1f1f1;
+	padding: 7px 0 8px 2px;
+}
+#menu_modifica_dati li a:hover {
+	text-decoration: underline;
+}
+#menu_modifica_dati ul {
+	border-right: 1px solid #E5E5E5;
+	min-height: 350px;
+  	height: auto !important;
+  	height: 350px;
+}
+#menu_modifica_dati ul li {
+	padding: 7px 0 8px 2px;
+}
+#menu_modifica_dati li {
+}
+
+/* sovrascritture */
+
+.box {
+	padding:20px;
+}
+
+
+.padding10 {
+	padding-left:10px;
+}
+
+#modificadati form .modulo p{
+	clear: left;
+}
+
+#areaMain_preferiti .box {
+	padding: 0;
+}
+
+#copiaRecapito, #copiaDomicilio{
+	margin-top: -10px;
+	margin-bottom: 10px;
+}

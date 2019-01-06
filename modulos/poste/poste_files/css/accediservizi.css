@@ -1,0 +1,11 @@
+/* accesso ai servizi su pagina di login accedi.shtml */
+.titoloAccessoPrivati_interna p, .titoloAccessoBusiness_interna p {padding:3px 0 3px 15px;}
+
+span.business					{padding:0 0 0 22px;}
+.inputAccedi, .inputPassword	{height:19px; width:146px; padding:2px 0 0 5px; border:1px solid #ccc; }
+.inputAccedi					{margin:12px 0 0 0px;}
+.inputPassword					{margin:3px 0 0 0px;}
+.accesso						{text-align:left; margin:3px 5px 0 165px;}
+div.dimenticato					{padding:8px 0 8px 10px; text-align:left; font-size:10px;}
+.dimenticato ul					{margin-left:6px; padding:0; text-align:left; list-style-type:none;}
+.dimenticato li					{margin:0; padding-left:8px; background:url(/img/homepage/square.gif) 0 6px no-repeat;}

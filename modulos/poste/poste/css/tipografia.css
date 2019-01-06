@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+/*****************************************
+	GESTIONE GENERICA TIPOGRAFIA 
+*****************************************/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+h1 {
+	font-size: 36px;
+	margin: 0px 0px 15px 0px;
+	color: #1344a3;
+}
+a:link, a:visited {
+	color: #005cab;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+input, textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	/*text-transform: uppercase;*/
+	color: #444;
+}
+/*****************************************
+	GESTIONE CONTENITORE BOX RICERCA 
+*****************************************/
+
+#box-ricerca form h1 {
+	background-image: url(../png/logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999px;
+}
+/*****************************************
+	GESTIONE CONTENITORE INFORMAZIONI 
+*****************************************/
+
+#contenitore-informazioni h3 {
+	color: #bebebe;
+	font-size: 18px;
+	letter-spacing: -1px
+}
+#contenitore-informazioni a {
+	color: #666;
+}
+/*****************************************
+	GESTIONE CONTENITORE FOOTER
+*****************************************/
+
+#contenitore-footer-index h4 {
+	height: 103px;
+	text-align: center;
+	color: #f1f1f1;
+	background-image: url(../png/contenitore-footer-index.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-indent: -9999px;
+	text-align: center;
+}
+.logo {
+	cursor: pointer;
+	cursor: hand;
+	display: block;
+	height: 28px;
+	width: 223px;
+}
+/*LOGO 150*/
+.logo {
+	cursor: pointer;
+	cursor: hand;
+	display: block;
+	height: 67px;
+	width: 171px;
+}

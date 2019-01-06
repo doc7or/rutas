@@ -1,0 +1,379 @@
+BODY {
+	MARGIN-TOP: 0px; FONT-SIZE: 100%; BACKGROUND: #ffffff; COLOR: #666666; LINE-HEIGHT: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; font-size-adjust: none; font-stretch: normal
+}
+HTML {
+	MARGIN-TOP: 0px; FONT-SIZE: 100%; BACKGROUND: #ffffff; COLOR: #666666; LINE-HEIGHT: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; font-size-adjust: none; font-stretch: normal
+}
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A:link {
+	COLOR: #373abd; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #373abd; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #373abd; TEXT-DECORATION: underline
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 977px; TEXT-ALIGN: left
+}
+#header_box {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 20px 0px 0px; PADDING-TOP: 0px; HEIGHT: 55px; TEXT-ALIGN: left
+}
+#header_menu {
+	MARGIN-TOP: 14px; FLOAT: left; WIDTH: 70%; TOP: 10px; TEXT-ALIGN: left
+}
+#container {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(img/top_container.jpg); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #dde4ee
+}
+#nav_chisiamo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 0.7em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#nav_chisiamo LI {
+	BORDER-RIGHT: #666 1px solid; PADDING-RIGHT: 5px; MARGIN-TOP: 2px; PADDING-LEFT: 5px; FLOAT: left; MARGIN-BOTTOM: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#registrazione {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 20px; PADDING-TOP: 0px
+}
+#registrazione LI {
+	FONT-SIZE: 0.7em; LIST-STYLE-TYPE: none
+}
+#colonnaSinistraHome {
+	BACKGROUND-POSITION: right top; FLOAT: left; BACKGROUND-IMAGE: url(img/separatore_coldx.gif); WIDTH: 795px; BACKGROUND-REPEAT: repeat-y
+}
+#colonnaDestraHome {
+	PADDING-LEFT: 2px; FLOAT: right; WIDTH: 180px
+}
+#bisogni {
+	BACKGROUND-POSITION: right top; MARGIN-TOP: 10px; BACKGROUND-IMAGE: url(img/tab_bisogni.jpg); MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 27px; TEXT-ALIGN: right
+}
+#main_content {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px; PADDING-TOP: 15px; BACKGROUND-COLOR: #ffffff
+}
+#col_prodotti {
+	FLOAT: left; WIDTH: 268px; MARGIN-RIGHT: 10px
+}
+#col_testo {
+	FLOAT: right; WIDTH: 460px
+}
+.tit_prodotti {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: left top; PADDING-LEFT: 55px; FONT-SIZE: 0.7em; BACKGROUND-IMAGE: url(img/box_prodotti.jpg); PADDING-BOTTOM: 10px; COLOR: #373abd; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat
+}
+.tit_online {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: left top; PADDING-LEFT: 55px; FONT-SIZE: 0.7em; BACKGROUND-IMAGE: url(img/box_online.jpg); PADDING-BOTTOM: 5px; COLOR: #373abd; PADDING-TOP: 1px; BACKGROUND-REPEAT: no-repeat
+}
+UL#menu_prodotti {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 231px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#menu_prodotti LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 231px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#menu_prodotti UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 231px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#menu_prodotti:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; FONT: 1px/0px serif; HEIGHT: 0px; content: "."
+}
+UL#menu_prodotti LI {
+	DISPLAY: block! important; FLOAT: left; LIST-STYLE-TYPE: none; POSITION: relative
+}
+UL#menu_prodotti A {
+	DISPLAY: block; FONT-SIZE: 0.7em; LINE-HEIGHT: 31px; HEIGHT: auto! important
+}
+UL#menu_prodotti A:hover {
+	COLOR: #373abf
+}
+UL#menu_prodotti LI:hover A {
+	COLOR: #373abf
+}
+UL#menu_prodotti LI.iehover A {
+	COLOR: #373abf
+}
+UL#menu_prodotti LI:hover LI A {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 2px; COLOR: #373abf
+}
+UL#menu_prodotti LI.iehover LI A {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 2px; COLOR: #373abf
+}
+UL#menu_prodotti LI:hover LI A:hover {
+	COLOR: #373abf
+}
+UL#menu_prodotti LI:hover LI:hover A {
+	COLOR: #373abf
+}
+UL#menu_prodotti LI.iehover LI A:hover {
+	COLOR: #373abf
+}
+UL#menu_prodotti LI.iehover LI.iehover A {
+	COLOR: #373abf
+}
+UL#menu_prodotti UL {
+	DISPLAY: none; BACKGROUND: #e7f0f5; FILTER: Alpha(Opacity=95); LEFT: 268px; POSITION: absolute; TOP: 0px; -moz-opacity: .95; opacity: .95
+}
+UL#menu_prodotti UL UL {
+	DISPLAY: none; BACKGROUND: #e7f0f5; FILTER: Alpha(Opacity=95); LEFT: 268px; POSITION: absolute; TOP: 0px; -moz-opacity: .95; opacity: .95
+}
+UL#menu_prodotti UL UL UL {
+	DISPLAY: none; BACKGROUND: #e7f0f5; FILTER: Alpha(Opacity=95); LEFT: 268px; POSITION: absolute; TOP: 0px; -moz-opacity: .95; opacity: .95
+}
+UL#menu_prodotti LI:hover UL UL {
+	DISPLAY: none
+}
+UL#menu_prodotti LI:hover UL UL UL {
+	DISPLAY: none
+}
+UL#menu_prodotti LI.iehover UL UL {
+	DISPLAY: none
+}
+UL#menu_prodotti LI.iehover UL UL UL {
+	DISPLAY: none
+}
+UL#menu_prodotti LI:hover UL {
+	DISPLAY: block
+}
+UL#menu_prodotti UL LI:hover UL {
+	DISPLAY: block
+}
+UL#menu_prodotti UL UL LI:hover UL {
+	DISPLAY: block
+}
+UL#menu_prodotti LI.iehover UL {
+	DISPLAY: block
+}
+UL#menu_prodotti UL LI.iehover UL {
+	DISPLAY: block
+}
+UL#menu_prodotti UL UL LI.iehover UL {
+	DISPLAY: block
+}
+UL#menu_prodotti LI.b_postali {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 37px; BACKGROUND-IMAGE: url(img/b_verde.jpg); BACKGROUND-REPEAT: no-repeat
+}
+UL#menu_prodotti LI.b_bancoposta {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 37px; BACKGROUND-IMAGE: url(img/b_blu.jpg); BACKGROUND-REPEAT: no-repeat
+}
+UL#menu_prodotti LI.b_servizi {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 37px; BACKGROUND-IMAGE: url(img/b_giallo.jpg); BACKGROUND-REPEAT: no-repeat
+}
+UL#menu_prodotti LI.b_business {
+	BACKGROUND-POSITION: left top; PADDING-LEFT: 37px; BACKGROUND-IMAGE: url(img/b_rosso.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.news {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; FONT: 10px Verdana,Arial,Helvetica,sans-serif; COLOR: #666666; PADDING-TOP: 0px; TEXT-ALIGN: left; font-size-adjust: none; font-stretch: normal
+}
+#div_servuno {
+	BORDER-RIGHT: #d9ec07 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #d9ec07 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #d9ec07 1px solid; BACKGROUND-COLOR: #fbffe1
+}
+#div_servdue {
+	BORDER-RIGHT: #d9ec07 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #d9ec07 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #d9ec07 1px solid; BACKGROUND-COLOR: #fbffe1
+}
+#cont_servuno {
+	DISPLAY: block; LINE-HEIGHT: 1.6em
+}
+#cont_servdue {
+	DISPLAY: none
+}
+UL.tabs {
+	FONT-SIZE: 0.6em; FLOAT: right; MARGIN-BOTTOM: 10px; COLOR: #373abd; LIST-STYLE-TYPE: none
+}
+UL.tabs LI {
+	PADDING-RIGHT: 3px; FONT-WEIGHT: normal; FLOAT: left; MARGIN-RIGHT: 3px; TEXT-DECORATION: none
+}
+#div_servuno LI.tab_servuno {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+#div_servdue LI.tab_servdue {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+UL.tabnav A:link {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #373abd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+UL.tabnav A:visited {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #373abd; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#serv_tab .tablab {
+	TEXT-DECORATION: none
+}
+#serv_tab LI.tab_servuno {
+	BORDER-RIGHT: #373abd 1px solid; CURSOR: pointer; TEXT-DECORATION: none
+}
+#serv_tab LI.tab_servdue {
+	CURSOR: pointer; TEXT-DECORATION: none
+}
+.tab_content {
+	DISPLAY: none
+}
+#serv_tab {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 20px
+}
+#cont_servdue UL {
+	LIST-STYLE-TYPE: none
+}
+#cont_servdue LI {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left center; PADDING-LEFT: 20px; FONT-SIZE: 0.7em; BACKGROUND-IMAGE: url(img/frecce.gif); PADDING-BOTTOM: 3px; MARGIN: 0px 0px 0px 10px; COLOR: #3a43b8; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px
+}
+#cont_servdue A {
+	COLOR: #3a43b8; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#cont_servdue A:hover {
+	COLOR: #3a43b8; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+#cont_servuno UL {
+	LIST-STYLE-TYPE: none
+}
+#cont_servuno LI {
+	DISPLAY: inline; TEXT-ALIGN: center
+}
+#cont_servuno A {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: #3a43b8; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+#cont_servuno A:hover {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; COLOR: #3a43b8; PADDING-TOP: 2px; BACKGROUND-COLOR: #def100
+}
+#cont_servuno LI.biggest {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.3em; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#cont_servuno LI.big {
+	FONT-WEIGHT: normal; FONT-SIZE: 1em; FONT-FAMILY: Arial, Helvetica, sans-serif; LETTER-SPACING: -0.01em
+}
+#cont_servuno LI.medium {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.84em; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#cont_servuno LI.little {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.7em; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.contenitorePrimoPiano {
+	FONT-SIZE: 0.7em; MARGIN: 10px 0px 0px
+}
+.contenitorePrimoPiano H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1em; PADDING-BOTTOM: 3px; PADDING-TOP: 0px; BORDER-BOTTOM: #c7c7c7 1px solid
+}
+.notizia IMG {
+	PADDING-RIGHT: 3px; FLOAT: left
+}
+.notizia {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 10px; PADDING-TOP: 6px
+}
+.floatAnnulla {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#boxServiziUtili {
+	TEXT-ALIGN: center
+}
+#boxAccessoServizi {
+	TEXT-ALIGN: center
+}
+#boxServiziUtili {
+	BACKGROUND: url(img/servizi_utili.gif) #e1e4ed no-repeat 10px 5px; HEIGHT: 90px
+}
+.selectServiziUtili {
+	WIDTH: 150px; TOP: 30px
+}
+.pulsante {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 21px; POSITION: relative; TOP: 24px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
+}
+.bannerDx {
+	BORDER-TOP: #c2c5ca 1px solid; MARGIN: 0px
+}
+.form {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	BORDER-RIGHT: #0a0a9c 1px solid; BORDER-TOP: #0a0a9c 1px solid; FONT: 10px Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #0a0a9c 1px solid; BORDER-BOTTOM: #0a0a9c 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT: 10px Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; POSITION: relative; HEIGHT: 17px
+}
+#boxAccessoServizi {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/accedi_servizi.gif) #e1e4ed no-repeat 0px 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 8px
+}
+#boxAccessoServizi H2 {
+	FONT-SIZE: 0.7em
+}
+.box_privati {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/accesso_privati.gif) #eef1f6 no-repeat 0px 100%; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px
+}
+.titoloAccessoPrivati {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/title_accesso_privati.gif) #eef1f6 no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.titoloAccessoPrivati P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.box_business {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/accesso_business.gif) #eef1f6 no-repeat 0px 100%; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px
+}
+.titoloAccessoBusiness {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/title_accesso_business.gif) #eef1f6 no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 156px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.titoloAccessoBusiness P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+SPAN.business {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+SPAN.businessOn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.inputAccedi {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; PADDING-BOTTOM: 0px; WIDTH: 146px; BORDER-TOP-COLOR: #ccc; PADDING-TOP: 2px; HEIGHT: 19px; BORDER-RIGHT-COLOR: #ccc
+}
+.inputPassword {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; PADDING-BOTTOM: 0px; WIDTH: 146px; BORDER-TOP-COLOR: #ccc; PADDING-TOP: 2px; HEIGHT: 19px; BORDER-RIGHT-COLOR: #ccc
+}
+.inputAccedi {
+	MARGIN: 12px 0px 0px
+}
+.inputPassword {
+	MARGIN: 3px 0px 0px
+}
+.accesso {
+	MARGIN: 3px 5px 0px 0px; TEXT-ALIGN: right
+}
+.pulsanteAccedi {
+	BACKGROUND: url(img/btn_sfumato.gif) #6b6bc5 repeat-x; WIDTH: 57px; HEIGHT: 20px
+}
+DIV.dimenticato {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-SIZE: 10px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+.dimenticato UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 6px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+.dimenticato LI {
+	PADDING-LEFT: 8px; BACKGROUND: url(img/square.gif) no-repeat 0px 6px; MARGIN: 0px
+}
+.servizi {
+	FONT-SIZE: 10px; MARGIN: 2px 0px 5px 10px; TEXT-ALIGN: left
+}
+#sponsor {
+	WIDTH: 176px
+}
+.quickLinksTop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/head_quickLinksNew.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 39px
+}
+.quickLinksBottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/footer_quickLinksNew.gif) no-repeat 0px 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 17px
+}
+DIV.quickLinks {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(img/body_quickLinksNew.gif) no-repeat 0px bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.quickLinks UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN-LEFT: 15px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.quickLinks LI {
+	PADDING-LEFT: 12px; BACKGROUND: url(img/arrow.gif) no-repeat 0px 6px; MARGIN: 0px
+}
+.icons {
+	MARGIN-LEFT: 18px
+}
+#en {
+	BACKGROUND: url(img/en_chiusura.gif) #fff no-repeat 0px 0px; WIDTH: 176px; HEIGHT: 80px
+}
+body { background-color: #FFFFFF; } /* OK */ 

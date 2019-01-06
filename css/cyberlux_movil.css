@@ -1,0 +1,1309 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background:#F2F2F2;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults  PONE EN CERO EL MARGENGENERAL DEL BODY*/
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector PONE ALINIEACION DE TEXTO CENTRADA EN EL BOD ESTO NO INFLUYE EN LOS DEMAS DIV O CONTENEDORES */
+	color: #000000; /*BLANCO POR DEFECTO*/
+}
+.thrColLiqHdr #container { 
+	width: 300px;  /* this will create a container 1000px of the browser width  1000PX ESTO TAMBIEN PUEDE SER DE CUALQUIER OTRO TAMAÑO O DE */
+	background: #FFFFFF;
+	margin: auto; /* the auto margins (in conjunction with a width) center the page ewsto deja centrado en el body */
+	
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.thrColLiqHdr #header { 
+	background:url(../images/header_movil.png); 
+	padding: 0px 0px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. 
+						If an image is used in the #header instead of text, you may want to remove the padding. */
+	/*border: 1px solid  #0095DD;*/
+	margin-bottom: 5px;
+	width: 300px;
+	height: 30px;
+} 
+.thrColLiqHdr #header h1 { /* TEXTO DEL TITULO*/
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0px 0px 2px; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	height:30px;
+	font-size:25px;
+}
+
+
+.thrColLiqHdr #mainContent { 
+	margin:auto; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	width: 296px;
+	
+	background:#FFFFFF;
+	border: 1px solid #EBE79E;
+}
+
+.thrColLiqHdr #sidebar1 p, .thrColLiqHdr #sidebar1 h3, .thrColLiqHdr #sidebar2 p, .thrColLiqHdr #sidebar2 h3 {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+
+/* Tips for mainContent:
+1. the space between the mainContent and sidebars is created with the left and right margins on the mainContent div.
+2. to avoid float drop at a supported minimum 800 x 600 resolution, elements within the mainContent div should be 300px or smaller (this includes images).
+3. in the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs.
+*/
+
+.thrColLiqHdr #footer { 
+	padding: 0px 5px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#4B4B4B;
+	margin-top: 5px;
+	height:25px;
+	border: 1px solid  #333;
+}
+
+.thrColLiqHdr #publicidad { 
+	padding: 2px 0px 2px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background::#069;
+	margin-top: 5px;
+	border: 1px solid  #333;
+}
+.thrColLiqHdr #publicidad marquee {
+	font: Verdana, Geneva, sans-serif #292929;
+	font-size:11px;
+}
+.thrColLiqHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue   as*/
+	color:#CCC;
+	font-size:10px;
+}
+
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain its child floats */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+/*YA PARTE CONSISA DE LS DEMAS CSS DE LAS PAGINAS INTERNAS*/
+
+/*SECCION DE LOGEO*/
+#tools_login
+{
+	width:100%; 
+	height:30px; 
+	background:#FFFFFF; 
+	margin-left:auto; 
+	margin-right:auto; 
+	margin-top:auto; 
+	
+}
+/*SECCION DE PEDIDOS*/
+.tabla_pedidos{
+	width:100%;
+	height:100%;
+	border: 1px solid #EBE79E;
+	text-align: center;
+}
+.tabla_pedidos_titulos{
+	background:#FFCC33;
+	border: 1px solid #333333;
+	text-align: center;
+	font-size:12px;
+	font-weight:bold;
+	
+}
+.tabla_pedidos_totales{
+	background:#FF6;
+	border: 1px solid #999;
+	text-align:right;
+	font-size:12px;
+	font-weight:bold;
+	color:#111;
+	
+}
+.tabla_pedidos_titulos_sub{
+	background:#EEEEEE;
+	text-align: center;
+	font-size:12px;
+	font-weight:bold;
+	
+}
+.tablas_pedidos_datos_ina {
+	background:#FF6C6C;
+	border-bottom:1px solid #F00;
+	text-align:left;
+	font-size:10px;
+	
+	
+}
+.tablas_pedidos_datos_acep {
+	background:#9FFFB8;
+	border-bottom:1px solid #004F27;
+	text-align:left;
+	font-size:10px;
+	
+	
+}
+.tablas_pedidos_datos_par {
+	background:#FFFFFF;	
+	text-align:left;
+	font-size:10px;
+	border-bottom:1px solid #999;
+	
+}
+
+
+
+.tablas_pedidos_datos_imp {
+	background:#FFFF99;
+	border-bottom:1px solid #F90;
+	text-align: left;
+	font-size:10px;
+	
+}
+.tablas_pedidos_txt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#2E2E2E;
+}
+.tablas_pedidos_bol {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#2E2E2E;
+}
+.tablas_pedidos_bolg {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#2E2E2E;
+}
+.tablas_pedidos_res {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#0033FF;
+}
+.tablas_pedidos_resg {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#0033FF;
+}
+.tabla_pedidos_caja {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:35px;
+}
+.tabla_pedidos_nume {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;s
+	BORDER:#E6DFC8 1px solid;
+	width:70px;
+}
+.tabla_pedidos_pool {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:50px;
+}
+.tabla_pedidos_pool_cli {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:270px;
+}
+
+
+
+.tabla_pedido_tarea {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:280px;
+	height:20px;
+
+}
+
+.tabla_ruta_tarea {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:280px;
+	height:40px;
+
+}
+/*SECCION DE PEDIDOS*/
+/*SECCION DE OPCIONES*/
+.tabla_opciones{
+	width:100%;
+	height:100%;
+	border:1;
+	
+	text-align: center;
+}
+
+.tabla_barra_opciones{
+	width:100%;
+	height:100%; 
+	BORDER: #999999 2px solid;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background:#E0E0E0;
+}
+.form_barra_text {
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	
+}
+
+.tabla_barra_opciones_alt{
+	width:100%;
+	height:100%; 
+	BORDER: #CCB406 2px solid;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background:#FDF5C1;
+}
+
+.tabla_barra_botones{
+	width:30%;
+	height:10px; 
+	border:0; 
+	cellspacing:0;  
+	cellpadding:0;
+}
+/*SECCION DE OPCIONES*/
+
+/*SECCION DE MENSAJES*/
+.tablas_mensajes_txt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#2E2E2E;
+}
+.tablas_mensajes_txt_bold {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#2E2E2E;
+	font-weight:bold;
+}
+/*SECCION DE MENSAJES*/
+
+/*SECCION DE LOGEO*/
+#area_login
+{
+	width:350px;
+	height:100px;
+	position:relative;
+	float:left;
+	left: 200px;
+	top: 200px;
+}
+
+
+.tablas_login {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:200px;
+	font-size:10px;
+	font-weight:400;
+	color:#282828;
+	text-align:right;
+	margin-top:0;
+	
+}
+
+.form_caja_login
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100px;	
+	font-size:10px;
+	color:#282828;
+}
+
+
+
+/*SECCION DE LOGEO*/
+
+
+/*SECCION  DE LOS LINK*/
+a:link {
+	font:Verdana, Geneva, sans-serif;
+	COLOR:#333;
+	font-size:9px;
+	TEXT-DECORATION: none;
+	font-weight:bold;
+}
+a:visited {
+	font:Verdana, Geneva, sans-serif;
+	COLOR:#333;
+	font-size:9px;
+	TEXT-DECORATION: none;
+}
+a:hover {
+	font:Verdana, Geneva, sans-serif;
+	COLOR:#666;
+	font-size:9px;
+	TEXT-DECORATION: none;
+}
+a:active {
+	font:Verdana, Geneva, sans-serif;
+	COLOR:#999;
+	font-size:9px;
+	TEXT-DECORATION: none;
+}
+/*SECCION  DE LOS LINK*/
+
+/*SECCION DE MENU*/
+
+/*SECCION DE MENU*/
+
+/*SECCION VARIAS*/
+#div_login
+{
+	width:310px;
+	height:120px;
+	top:357px;
+	left:285px;
+	position:absolute;
+}
+#mensaje_ayuda{
+	width:90%;
+	top:0;
+	left:0;
+	position:relative;	
+
+}
+.tablas_filtros {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:99%;
+	text-align:left;
+	background:#FFFFFF;
+	font-size:10px;
+}
+
+
+
+#asin_mail {
+	height:80px;
+	overflow:auto;
+}
+
+#list_mail {
+	height:100px;
+	width:350px;
+	/*position:absolute;*/
+	top:316px;
+	left:564px;
+	/*overflow:auto;*/
+}
+#comment_add {
+	height:300px;
+	width:450px;
+	position:absolute;
+	top:238px;
+	left:324px;
+	
+	
+}
+#cuerpo_reportes {
+	background-color: #ffffff;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 95%;
+	height:335px;
+	overflow:auto;
+}
+
+
+
+
+.not_display {
+	display:none;
+}
+
+.text_resalt {
+	color: #E6B303;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.titulo_grandes {
+	color: #708100;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.encabezado_tabla {
+	color:#7D882C; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	font-weight:bold; 
+	text-align:center;
+	background-color:#F6F7E9;
+}
+
+.paginador {
+	color:#81875E; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:10px; 
+	font-weight:bold;
+	width:30px;
+	height:20px;
+	border: 1px solid #81875E;
+	padding-left:5px;
+	padding-right:5px;
+	
+
+}
+.error_mesaje {
+	color:#FF0000;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:10px; 
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.error_mesaje_acme {
+	color:#FF0000;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:10px; 
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	/*visibility:hidden;*/
+	
+}
+/*SECCION VARIAS*/
+
+/*SECCION AYUDAS*/
+.tr_mensaje_ayuda{
+	background-color:#E6E6E6;
+	vertical-align:top;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+}
+/*SECCION AYUDAS*/
+
+/*SECCION DE TABLAS DE MAESTROS*/
+
+.tablas_maestros {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:98%;
+	font-size:12px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+	border:#F7E7A6 1px solid;
+}
+
+/*SECCION DE TABLAS DE MAESTROS*/
+
+
+/*SECCION DE TABLAS DE PROCESOS*/
+
+
+.tablas_procesos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:95%;
+	font-size:12px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+	
+	
+}
+
+.tablas_procesos_datos_encabezado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100%;
+	font-size:10px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+	
+	
+}
+.tablas_procesos_datos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100%;
+	font-size:10px;
+	font-weight:normal;
+	color:#333333;
+	text-align:left;	
+	border:#CCCCCC 1px solid;
+}
+
+.tablas_procesos_datos_menor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100%;
+	font-size:9px;
+	font-weight:normal;
+	color:#333333;
+	text-align:left;	
+	border:#CCCCCC 1px solid;
+	vertical-align:top;
+	background:#FFFFFF;S
+}
+
+.tablas_procesos_correlativos {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#FF0000;
+}
+
+.tablas_procesos_titulo {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#FF0000;
+}
+
+
+/*SECCION DE TABLAS DE PROCESOS*/
+
+/*SECCION DE TABLAS DE RESPUESTAS*/
+.tablas_respuesta {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100%;
+	font-size:10px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+	background:#EBEBEB;
+	
+	
+}
+
+.tablas_respuesta_detalles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:100%;
+	font-size:10px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+	background:#FFFFFF;
+	
+}
+
+.form_caja_respuestas {
+	color:#004040;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#004040 1px solid;
+}
+/*SECCION DE TABLAS DE RESPUESTAS*/
+
+
+/*SECCION DE TABLAS DE LISTADOS*/
+.tablas_listados {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:95%;
+	text-align:left;
+}
+.tablas_listados_nomina {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:99%;
+	text-align:left;
+}
+
+.tablas_listados_encabezados_totales {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+	background:#D8D8AF;
+	height:18px;
+	border:#F7E7A6 1px solid;
+}
+
+.tablas_listados_encabezados {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#F7F7F7;
+	text-align:left;
+	background:#D0B104;
+	height:20px;
+}
+
+.tablas_listados_encabezados_sub {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#F7F7F7;
+	text-align:left;
+	background:#888888;
+	height:20px;
+}
+.tablas_listados_encabezados_sub_0 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#F7F7F7;
+	text-align:left;
+	background:#DEA803;
+	height:20px;
+}
+.tablas_listados_datos_imp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#555555;
+	text-align:left;
+	background:#FFFFFF;
+	border:#000000 1px solid;
+	
+		
+}
+.tablas_listados_datos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#555555;
+	text-align:left;
+	background:#FFFFFF;
+	
+	
+		
+}
+
+.tablas_listados_datos_par {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#555555;
+	text-align:left;
+	background:#EAE9E1;
+	border:#000000 1px solid;
+	
+}
+.tablas_listados_datos_imp_del {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FF0000;
+	text-align:left;
+	background:#FFFFFF;
+	border:#000000 1px solid;
+	
+		
+}
+.tablas_listados_datos_par_del {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FF0000;
+	text-align:left;
+	background:#EAE9E1;
+	border:#000000 1px solid;
+	
+}
+.tablas_listados_datos_imp_menor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#555555;
+	text-align:left;
+	background:#FFFFFF;
+	border:#000000 1px solid;
+	
+		
+}
+.tablas_listados_datos_par_menor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#555555;
+	text-align:left;
+	background:#EAE9E1;
+	border:#000000 1px solid;
+	
+}
+/*SECCION DE TABLAS DE LISTADOS*/
+
+/*SECCION DE TABLAS DE FORMULARIOS*/
+.form_titulo_acme{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	color:#ffffff;
+	background:#CCA815;
+}
+
+.form_titulo_nomina{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	color:#000066;
+	
+}
+
+.form_titulo_menor{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight: bold;
+	color:#ffffff;
+	background:#CCA815;
+}
+
+.form_sub_titulo_menor{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight: bold;
+	color:#ffffff;
+	background:#666666;
+}
+.form_titulo{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	color:#333333;
+
+}
+.form_titulo_procesos{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	color:#333333;
+	text-align:left;
+
+}
+.form_caja {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:180px;
+}
+.form_caja_rif {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:130px;
+}
+.form_caja_telefono {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:110px;
+}
+.form_error {
+	background-color:#FF8080;
+	
+}
+.form_label_view {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+}
+
+.form_label_view_post {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	width:95%;
+}
+
+.form_label_edit_guia {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	width:90%;
+}
+.form_caja_proceso {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:180px;
+}
+.form_caja_larga {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:260px;
+}
+.form_caja_proceso_numero {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:120px;
+	
+	
+}
+.form_caja_proceso_numero_menor {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:60px;
+	
+}
+.form_caja_proceso_ruta {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:250px;
+	
+}
+.form_check_proceso {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	width:10px;
+	
+}
+.form_caja_proceso_movil {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:280px;
+	
+}
+.form_text {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:180px;
+	
+}
+.form_text_proceso {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:180px;
+	
+	
+	
+}
+
+.form_text_factura {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:120px;	
+	
+}
+
+.form_text_cheque {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:180px;	
+	
+}
+
+.form_pool_factura {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:45px;
+}
+
+.form_pool {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:183px;
+}
+.form_pool_rif {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+
+	width:35px;
+}
+.form_pool_cod_area {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:55px;
+}
+.form_pool_proceso {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:183px;
+}
+.form_pool_mes_lit {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:120px;
+}
+
+.form_pool_dia_mes {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:44px;
+}
+.form_pool_ano {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:70px;
+}
+.form_pool_ano2 {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:55px;
+}
+.form_label_meta {
+	color:#03C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:500;
+	
+}
+.formSelectVendedor{
+	color:#003;
+	background:#EAEAFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;	
+}
+.formSelectCoordinador{
+	color:#FFF;
+	background:#8080FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.form_label_pedido{
+	color:#F00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:500;
+	
+}
+.form_label_cumplimiento{
+	color:#000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:500;
+	
+}
+.form_label_factura{
+	color:#093;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:500;
+	
+}
+.tablas_pedidos_datos_par_cajas {
+	background:#FFFFFF;
+	border-bottom:1px solid #999;
+	border-left:1px solid #999;
+	text-align:right;
+	font-size:10px;
+}
+.tablas_pedidos_datos_imp_cajas {
+	background:#FFFF99;
+	border-bottom:1px solid #F90;
+	border-left:1px solid #F90;
+	text-align:right;
+	font-size:10px;
+}
+.form_label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#555555;
+	text-align:left;
+	background:#EEE9DD;
+	
+}
+.form_label_proceso {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#555555;
+	text-align:left;
+	background:#EEE9DD;
+	
+}
+
+.form_label_subtotales {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#555555;
+	background:#EEE9DD;
+	
+}
+
+.form_label_procesos_imp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#555555;
+	text-align:left;
+}
+.form_botones {
+	color:#C90;
+	background:#000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*font-weight: bold;*/
+	BORDER:#666 1px solid;
+	
+}
+.form_boton_grande {
+	color:#C90;
+	background:#000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width:130px;
+	/*font-weight: bold;*/
+	BORDER:#666 1px solid;
+	
+}
+.form_botones_login {
+	color:#C90;
+	background:#000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*font-weight: bold;*/
+	BORDER:#666 1px solid;
+}
+
+#form_content {
+	background-color: #ffffff;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height:350px;
+	overflow:auto;
+}
+
+#form_button {
+	background-color:#E6E6E6;
+	height:40px;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*SECCION DE TABLAS DE FORMULARIOS*/
+
+/*YA PARTE CONSISA DE LS DEMAS CSS DE LAS PAGINAS INTERNAS*/
+.tablas_renglones_imp_text {
+	background:#FFFF99;
+	border-bottom:1px solid #F90;
+	border-right:1px solid #F90;
+	text-align: left;
+	font-size:10px;	
+}
+.html_tablas_renglones_imp_text {
+	background:#FFFF99;
+	border-bottom:1px solid #F90;
+	border-right:1px solid #F90;
+	text-align: left;
+	font-size:12px;	
+	height:25px;
+}
+.tablas_renglones_imp_num {
+	background:#FFFF99;
+	border-bottom:1px solid #F90;
+	border-right:1px solid #F90;
+	text-align:right;
+	font-size:10px;	
+}
+.html_tablas_renglones_imp_num {
+	background:#FFFF99;
+	border-bottom:1px solid #F90;
+	border-right:1px solid #F90;
+	text-align:right;
+	font-size:12px;	
+	height:25px;
+}
+/*RENGLONES DE TABLAS*/
+
+
+.tabla_procesos_caja {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:70px;
+}
+.tabla_procesos_nume {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:70px;
+}
+.tabla_procesos_pool{
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:70px;
+}
+.tabla_procesos_pool_lar {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:280px;
+}
+.form_pool_factura {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:40px;
+}
+.tabla_barra_opciones_alt{
+	width:100%;
+	height:100%; 
+	BORDER: #CCB406 2px solid;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background:#FDF5C1;
+}
+.tabla_pedido_tarea {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:280px;
+	height:20px;
+
+}
+.tabla_ruta_tarea {
+	color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	BORDER:#E6DFC8 1px solid;
+	width:280px;
+	height:40px;
+
+}
+
+.tablas_renglones_par_text {
+	background:#FFFFFF;	
+	text-align:left;
+	font-size:10px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+}
+.html_tablas_renglones_par_text {
+	background:#FFFFFF;	
+	text-align:left;
+	font-size:12px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+}
+.tablas_renglones_par_num {
+	background:#FFFFFF;	
+	text-align:right;
+	font-size:10px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	height:25px;
+}
+.html_tablas_renglones_par_num {
+	background:#FFFFFF;	
+	text-align:right;
+	height:25px;
+	font-size:12px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+}
+
+.tabla_report_tit_left {
+	background:#D6D6D6;	
+	text-align:left;
+	height:20px;
+	font-size:10px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+}
+
+.tabla_report_tit_left0 {
+	background:#FF6;	
+	text-align:left;
+	height:20px;
+	font-size:10px;
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+}
